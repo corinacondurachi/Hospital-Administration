@@ -32,6 +32,16 @@ namespace proiect_daw.Controllers
         {
             return View();
         }
+        
+        public IActionResult AutentificationPatients()
+        {
+            return View();
+        }
+        
+        public IActionResult AutentificationDoctors()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

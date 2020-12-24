@@ -119,3 +119,5 @@
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/obj/Debug/net5.0/proiect_daw.genruntimeconfig.cache
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/obj/Debug/net5.0/proiect_daw.csproj.CopyComplete
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/obj/Debug/net5.0/Razor/Views/Home/Registration.cshtml.g.cs
+/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/obj/Debug/net5.0/Razor/Views/Home/AutentificationPatients.cshtml.g.cs
+/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/obj/Debug/net5.0/Razor/Views/Home/AutentificationDoctors.cshtml.g.cs
