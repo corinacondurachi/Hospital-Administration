@@ -6,6 +6,6 @@ namespace proiect_daw.Data
     public class PatientsContext: IdentityDbContext
     {
         public PatientsContext(DbContextOptions <PatientsContext> options): base(options){}
-        public System.Data.Entity.DbSet<Models.Patient> Patients { get; set; }
+        public DbSet<Models.Patient> Patients { get; set; }
     }
 }
