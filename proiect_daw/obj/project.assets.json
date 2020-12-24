@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/corinacondurachi/Documents/GitHub/FMI/DAW/proiect_daw/proiect_daw.csproj",
+      "projectUniqueName": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/proiect_daw.csproj",
       "projectName": "proiect_daw",
-      "projectPath": "/Users/corinacondurachi/Documents/GitHub/FMI/DAW/proiect_daw/proiect_daw.csproj",
+      "projectPath": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/proiect_daw.csproj",
       "packagesPath": "/Users/corinacondurachi/.nuget/packages/",
-      "outputPath": "/Users/corinacondurachi/Documents/GitHub/FMI/DAW/proiect_daw/obj/",
+      "outputPath": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/corinacondurachi/.nuget/NuGet/NuGet.Config"

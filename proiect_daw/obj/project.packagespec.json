@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/corinacondurachi/Documents/GitHub/FMI/DAW/proiect_daw/proiect_daw.csproj",
+    "projectUniqueName": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/proiect_daw.csproj",
     "projectName": "proiect_daw",
-    "projectPath": "/Users/corinacondurachi/Documents/GitHub/FMI/DAW/proiect_daw/proiect_daw.csproj",
-    "outputPath": "/Users/corinacondurachi/Documents/GitHub/FMI/DAW/proiect_daw/obj/",
+    "projectPath": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/proiect_daw.csproj",
+    "outputPath": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "net50"

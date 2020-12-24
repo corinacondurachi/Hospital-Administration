@@ -27,6 +27,11 @@ namespace proiect_daw.Controllers
         {
             return View();
         }
+        
+        public IActionResult Registration()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
