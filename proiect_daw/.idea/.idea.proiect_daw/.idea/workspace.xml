@@ -23,7 +23,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23a26a72-24f5-4aaf-b18e-20138296fdca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.proiect_daw/.idea/dataSources/810837dc-d67e-4f5d-aae7-5fc5eb93a316.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proiect_daw/.idea/dataSources/810837dc-d67e-4f5d-aae7-5fc5eb93a316.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.proiect_daw/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proiect_daw/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.proiect_daw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.proiect_daw/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/proiect_daw.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/proiect_daw.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/proiect_daw.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/proiect_daw.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/proiect_daw.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/proiect_daw.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/proiect_daw.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/proiect_daw.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/proiect_daw.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/proiect_daw.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/proiect_daw.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/proiect_daw.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/proiect_daw.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/proiect_daw.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/proiect_daw.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/proiect_daw.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/proiect_daw.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/proiect_daw.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/proiect_daw.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proiect_daw.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/proiect_daw.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +71,9 @@
         <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/Models/Patient.cs" />
         <option value="$PROJECT_DIR$/Data/PetientsContext.cs" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Data/PatientsContext.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
       </list>
     </option>
   </component>
@@ -120,7 +145,7 @@
       <workItem from="1608793930096" duration="2549000" />
       <workItem from="1608803521581" duration="47000" />
       <workItem from="1608803591929" duration="5333000" />
-      <workItem from="1608813684044" duration="10032000" />
+      <workItem from="1608813684044" duration="12351000" />
     </task>
     <servers />
   </component>
@@ -156,34 +181,34 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="412" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.813@0.23.1440.813" timestamp="1608812433967" />
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom" timestamp="1608813502301">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1034" height="241" key="GridCell.Tab.0.bottom" timestamp="1608827014745">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1608795376272" />
     <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1608811367215" />
     <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1608813502301" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1608805673976" />
-    <state width="1398" height="206" key="GridCell.Tab.0.center" timestamp="1608813502299">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1034" height="241" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1608827014745" />
+    <state width="1034" height="241" key="GridCell.Tab.0.center" timestamp="1608827014743">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1608795376271" />
     <state width="1398" height="206" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1608811367213" />
     <state width="1398" height="206" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1608813502299" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1608805673975" />
-    <state width="1398" height="206" key="GridCell.Tab.0.left" timestamp="1608813502298">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1034" height="241" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1608827014743" />
+    <state width="1034" height="241" key="GridCell.Tab.0.left" timestamp="1608827014742">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1608795376271" />
     <state width="1398" height="206" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1608811367213" />
     <state width="1398" height="206" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1608813502298" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1608805673970" />
-    <state width="1398" height="206" key="GridCell.Tab.0.right" timestamp="1608813502300">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1034" height="241" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1608827014742" />
+    <state width="1034" height="241" key="GridCell.Tab.0.right" timestamp="1608827014744">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1608795376272" />
     <state width="1398" height="206" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1608811367214" />
     <state width="1398" height="206" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1608813502300" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1608805673975" />
+    <state width="1034" height="241" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1608827014744" />
     <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1608813355094">
       <screen x="0" y="23" width="1440" height="816" />
     </state>

@@ -12,6 +12,11 @@
       <e p="Data" t="Include">
         <e p="PatientsContext.cs" t="Include" />
       </e>
+      <e p="Migrations" t="Include">
+        <e p="20201224162957_InitialCreate.cs" t="Include" />
+        <e p="20201224162957_InitialCreate.Designer.cs" t="Include" />
+        <e p="PatientsContextModelSnapshot.cs" t="Include" />
+      </e>
       <e p="Models" t="Include">
         <e p="ErrorViewModel.cs" t="Include" />
         <e p="Patient.cs" t="Include" />
