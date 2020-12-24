@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8eb1hoVDRjfhPOtZsPz3DUKeePYvE1pSiLkwt1hWeZRTF6oW5Jz2LqUhpeT35VXZtSMHuQ3PMya3c9dQlN9dFA==",
+  "dgSpecHash": "2rs87NPbPNKXTQg4ksPH/P/WjmUND42uVuDYdFqYyWz8A2W0ngkB8yf0heu7VIl6twwt7WHoHrKza3vRt14m1Q==",
   "success": true,
   "projectFilePath": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/proiect_daw/proiect_daw.csproj",
   "expectedPackageFiles": [
+    "/Users/corinacondurachi/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.1/microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
+    "/Users/corinacondurachi/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.1/microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
+    "/Users/corinacondurachi/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/5.0.1/microsoft.aspnetcore.identity.entityframeworkcore.5.0.1.nupkg.sha512",
     "/Users/corinacondurachi/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/corinacondurachi/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "/Users/corinacondurachi/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.0.1/microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -17,6 +20,8 @@
     "/Users/corinacondurachi/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "/Users/corinacondurachi/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1/microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "/Users/corinacondurachi/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/corinacondurachi/.nuget/packages/microsoft.extensions.identity.core/5.0.1/microsoft.extensions.identity.core.5.0.1.nupkg.sha512",
+    "/Users/corinacondurachi/.nuget/packages/microsoft.extensions.identity.stores/5.0.1/microsoft.extensions.identity.stores.5.0.1.nupkg.sha512",
     "/Users/corinacondurachi/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "/Users/corinacondurachi/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/corinacondurachi/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
