@@ -15,6 +15,12 @@
       <list>
         <option value="$PROJECT_DIR$/Controllers/Team.cs" />
         <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Models/Patient.cs" />
+        <option value="$PROJECT_DIR$/Data/PatientsContext.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e4e68ecc-29de-43b0-bf8b-5f2412ab36d9/console.sql" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e4e68ecc-29de-43b0-bf8b-5f2412ab36d9/console_1.sql" />
       </list>
     </option>
   </component>
@@ -24,8 +30,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.hospital_administration">
@@ -69,33 +83,59 @@
       <option name="presentableId" value="Default" />
       <updated>1608974105207</updated>
       <workItem from="1608974112977" duration="588000" />
+      <workItem from="1608980076120" duration="4365000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1034" height="209" key="GridCell.Tab.0.bottom" timestamp="1608974767833">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608984476779">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1608984476779" />
+    <state width="1034" height="156" key="GridCell.Tab.0.bottom" timestamp="1608984420538">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1034" height="156" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1608984420538" />
+    <state width="1034" height="156" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1608980792379" />
     <state width="1034" height="209" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1608974767833" />
-    <state width="1034" height="209" key="GridCell.Tab.0.center" timestamp="1608974767833">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1034" height="156" key="GridCell.Tab.0.center" timestamp="1608984420537">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
+    <state width="1034" height="156" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1608984420537" />
+    <state width="1034" height="156" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1608980792377" />
     <state width="1034" height="209" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1608974767833" />
-    <state width="1034" height="209" key="GridCell.Tab.0.left" timestamp="1608974767832">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1034" height="156" key="GridCell.Tab.0.left" timestamp="1608984420536">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
+    <state width="1034" height="156" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1608984420536" />
+    <state width="1034" height="156" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1608980792376" />
     <state width="1034" height="209" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1608974767832" />
-    <state width="1034" height="209" key="GridCell.Tab.0.right" timestamp="1608974767833">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1034" height="156" key="GridCell.Tab.0.right" timestamp="1608984420538">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
+    <state width="1034" height="156" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1608984420538" />
+    <state width="1034" height="156" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1608980792378" />
     <state width="1034" height="209" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1608974767833" />
+    <state width="243" height="412" key="HiddenNamespacesPopup" timestamp="1608984727259">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="243" height="455" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1608984492309" />
+    <state width="243" height="412" key="HiddenNamespacesPopup/0.23.1440.813@0.23.1440.813" timestamp="1608984727259" />
+    <state x="582" y="183" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1608984759860">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="582" y="183" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.813@0.23.1440.813" timestamp="1608984759860" />
+    <state x="607" y="157" width="672" height="678" key="search.everywhere.popup" timestamp="1608983490367">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="607" y="157" width="672" height="678" key="search.everywhere.popup/0.23.1440.813@0.23.1440.813" timestamp="1608983490367" />
   </component>
 </project>
