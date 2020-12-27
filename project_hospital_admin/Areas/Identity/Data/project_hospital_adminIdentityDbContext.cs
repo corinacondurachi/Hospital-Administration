@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using project_hospital_admin.Models;
 
 namespace project_hospital_admin.Areas.Identity.Data
 {
-    public class project_hospital_adminIdentityDbContext : IdentityDbContext<IdentityUser>
+    public class project_hospital_adminIdentityDbContext : IdentityDbContext<ApplicationUser>
     {
         public project_hospital_adminIdentityDbContext(DbContextOptions<project_hospital_adminIdentityDbContext> options)
             : base(options)
