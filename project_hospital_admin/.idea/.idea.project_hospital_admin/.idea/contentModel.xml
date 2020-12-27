@@ -23,6 +23,12 @@
           <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
+        <e p="PatientDbContext.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20201227112204_TablePacients.cs" t="Include" />
+        <e p="20201227112204_TablePacients.Designer.cs" t="Include" />
+        <e p="PatientDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="ErrorViewModel.cs" t="Include" />

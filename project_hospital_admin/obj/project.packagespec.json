@@ -45,6 +45,18 @@
         "Microsoft.EntityFrameworkCore.Tools": {
           "target": "Package",
           "version": "[5.0.1, )"
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration": {
+          "target": "Package",
+          "version": "[5.0.1, )"
+        },
+        "Npgsql": {
+          "target": "Package",
+          "version": "[5.0.1.1, )"
+        },
+        "Npgsql.EntityFrameworkCore.PostgreSQL": {
+          "target": "Package",
+          "version": "[5.0.1, )"
         }
       },
       "imports": [
