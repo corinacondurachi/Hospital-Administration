@@ -7883,11 +7883,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/corinacondurachi/Desktop/project_hospital_admin/project_hospital_admin.csproj",
+      "projectUniqueName": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/project_hospital_admin.csproj",
       "projectName": "project_hospital_admin",
-      "projectPath": "/Users/corinacondurachi/Desktop/project_hospital_admin/project_hospital_admin.csproj",
+      "projectPath": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/project_hospital_admin.csproj",
       "packagesPath": "/Users/corinacondurachi/.nuget/packages/",
-      "outputPath": "/Users/corinacondurachi/Desktop/project_hospital_admin/obj/",
+      "outputPath": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/corinacondurachi/.nuget/NuGet/NuGet.Config"
