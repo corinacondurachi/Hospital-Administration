@@ -100,6 +100,8 @@
         <e p="Migrations" t="Include">
           <e p="00000000000000_CreateIdentitySchema.cs" t="Include" />
           <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
+          <e p="20201227164955_ExtendTable.cs" t="Include" />
+          <e p="20201227164955_ExtendTable.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="PatientDbContext.cs" t="Include" />
