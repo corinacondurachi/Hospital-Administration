@@ -5,16 +5,6 @@ namespace project_hospital_admin.Models
 {
     public class Patient
     {
-        [Key]
-        public int Id { get; set; }
-        
-        [EmailAddress]
-        // [OnlyGmail(ErrorMessage = "Adresa de email este invalida!")]
-        public string Email { get; set; }
-        
-        [Required]
-        public string Password { get; set; }
-
         [Required]
         public string FirstName { get; set; }
 
