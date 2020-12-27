@@ -23,57 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10efbdf4-1760-4421-a162-ad2bda5e1d39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/dataSources/77268863-26a3-4a49-a8fd-84802c1d1c05/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/dataSources/77268863-26a3-4a49-a8fd-84802c1d1c05/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/dataSources/77268863-26a3-4a49-a8fd-84802c1d1c05/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/dataSources/77268863-26a3-4a49-a8fd-84802c1d1c05/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/Data/PatientDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/Migrations/20201227112204_TablePacients.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/Migrations/20201227112204_TablePacients.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/Migrations/PatientDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/Npgsql.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/project_hospital_admin.csproj.EntityFrameworkCore.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/project_hospital_admin.csproj.codegeneration.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources/967f64d7-a756-49f8-a4c0-5d88242d75ee.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources/967f64d7-a756-49f8-a4c0-5d88242d75ee/storage_v2/_src_/database/mydb.Kl8zAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources/967f64d7-a756-49f8-a4c0-5d88242d75ee/storage_v2/_src_/database/mydb.Kl8zAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources/967f64d7-a756-49f8-a4c0-5d88242d75ee/storage_v2/_src_/database/mydb.Kl8zAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources/967f64d7-a756-49f8-a4c0-5d88242d75ee/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources/967f64d7-a756-49f8-a4c0-5d88242d75ee/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources/967f64d7-a756-49f8-a4c0-5d88242d75ee/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/dataSources/967f64d7-a756-49f8-a4c0-5d88242d75ee/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hospital_administration/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/hospital_administration.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/hospital_administration.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/hospital_administration.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/hospital_administration.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Team.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Team.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/hospital_administration.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/hospital_administration.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/hospital_administration.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/hospital_administration.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/dataSources/77268863-26a3-4a49-a8fd-84802c1d1c05.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/dataSources/77268863-26a3-4a49-a8fd-84802c1d1c05.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/dataSources/77268863-26a3-4a49-a8fd-84802c1d1c05/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/dataSources/77268863-26a3-4a49-a8fd-84802c1d1c05/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/PatientsContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PatientsContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/.idea/.idea.project_hospital_admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/project_hospital_admin.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/project_hospital_admin.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/ref/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/bin/Debug/net5.0/ref/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/Razor/Views/Home/Team.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/Razor/Views/Home/Team.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/ref/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/Debug/net5.0/ref/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/project_hospital_admin.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/project_hospital_admin.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/project_hospital_admin.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/project_hospital_admin.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_hospital_admin/project_hospital_admin.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../project_hospital_admin/project_hospital_admin.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +54,6 @@
         <option value="$PROJECT_DIR$/Controllers/Team.cs" />
         <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Models/Patient.cs" />
-        <option value="$PROJECT_DIR$/Data/PatientsContext.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e4e68ecc-29de-43b0-bf8b-5f2412ab36d9/console.sql" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e4e68ecc-29de-43b0-bf8b-5f2412ab36d9/console_1.sql" />
@@ -100,6 +61,7 @@
         <option value="$PROJECT_DIR$/hospital_administration.csproj" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Data/PatientsContext.cs" />
       </list>
     </option>
   </component>
@@ -174,7 +136,9 @@
       <workItem from="1609056035467" duration="550000" />
       <workItem from="1609057911960" duration="721000" />
       <workItem from="1609059275612" duration="3625000" />
-      <workItem from="1609063890770" duration="1321000" />
+      <workItem from="1609063890770" duration="2524000" />
+      <workItem from="1609072458357" duration="12000" />
+      <workItem from="1609072499169" duration="108000" />
     </task>
     <servers />
   </component>
@@ -207,36 +171,37 @@
     <state x="320" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.813@0.23.1440.813" timestamp="1609018180728" />
     <state x="320" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816@0.23.1440.816" timestamp="1608986244815" />
     <state x="320" y="128" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1609070059433" />
-    <state width="1034" height="156" key="GridCell.Tab.0.bottom" timestamp="1608984420538">
+    <state width="1271" height="183" key="GridCell.Tab.0.bottom" timestamp="1609071362397">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1034" height="156" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1608984420538" />
+    <state width="1271" height="183" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1609071362397" />
     <state width="1034" height="156" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1608980792379" />
     <state width="1034" height="209" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1608974767833" />
-    <state width="1034" height="156" key="GridCell.Tab.0.center" timestamp="1608984420537">
+    <state width="1271" height="183" key="GridCell.Tab.0.center" timestamp="1609071362395">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1034" height="156" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1608984420537" />
+    <state width="1271" height="183" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1609071362395" />
     <state width="1034" height="156" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1608980792377" />
     <state width="1034" height="209" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1608974767833" />
-    <state width="1034" height="156" key="GridCell.Tab.0.left" timestamp="1608984420536">
+    <state width="1271" height="183" key="GridCell.Tab.0.left" timestamp="1609071362395">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1034" height="156" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1608984420536" />
+    <state width="1271" height="183" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1609071362395" />
     <state width="1034" height="156" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1608980792376" />
     <state width="1034" height="209" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1608974767832" />
-    <state width="1034" height="156" key="GridCell.Tab.0.right" timestamp="1608984420538">
+    <state width="1271" height="183" key="GridCell.Tab.0.right" timestamp="1609071362396">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1034" height="156" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1608984420538" />
+    <state width="1271" height="183" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1609071362396" />
     <state width="1034" height="156" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1608980792378" />
     <state width="1034" height="209" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1608974767833" />
-    <state width="243" height="412" key="HiddenNamespacesPopup" timestamp="1609018301662">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="243" height="417" key="HiddenNamespacesPopup" timestamp="1609070080005">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="243" height="455" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1608984492309" />
     <state width="243" height="412" key="HiddenNamespacesPopup/0.23.1440.813@0.23.1440.813" timestamp="1609018301662" />
     <state width="243" height="414" key="HiddenNamespacesPopup/0.23.1440.816@0.23.1440.816" timestamp="1608986182596" />
+    <state width="243" height="417" key="HiddenNamespacesPopup/0.23.1440.821@0.23.1440.821" timestamp="1609070080005" />
     <state x="412" y="179" key="Rider.ProjectTemplateDialog.Size" timestamp="1609064125310">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

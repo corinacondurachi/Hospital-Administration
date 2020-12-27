@@ -10,7 +10,6 @@ namespace hospital_administration.Data
             : base(options)
         {
         }
-
-        public DbSet<Patient> Movie { get; set; }
+        public DbSet<Patient> Patients { get; set; }
     }
 }
