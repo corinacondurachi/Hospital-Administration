@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/corinacondurachi/Desktop/hospital_administration/hospital_administration.csproj": {}
+    "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/hospital_administration/hospital_administration.csproj": {}
   },
   "projects": {
-    "/Users/corinacondurachi/Desktop/hospital_administration/hospital_administration.csproj": {
+    "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/hospital_administration/hospital_administration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/corinacondurachi/Desktop/hospital_administration/hospital_administration.csproj",
+        "projectUniqueName": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/hospital_administration/hospital_administration.csproj",
         "projectName": "hospital_administration",
-        "projectPath": "/Users/corinacondurachi/Desktop/hospital_administration/hospital_administration.csproj",
+        "projectPath": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/hospital_administration/hospital_administration.csproj",
         "packagesPath": "/Users/corinacondurachi/.nuget/packages/",
-        "outputPath": "/Users/corinacondurachi/Desktop/hospital_administration/obj/",
+        "outputPath": "/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/hospital_administration/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/corinacondurachi/.nuget/NuGet/NuGet.Config"
@@ -40,15 +40,15 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -60,13 +60,23 @@
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.1.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[5.0.1, )"
             }
@@ -89,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

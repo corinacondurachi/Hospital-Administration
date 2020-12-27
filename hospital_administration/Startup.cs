@@ -20,6 +20,7 @@ namespace hospital_administration
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
         }
 
         public IConfiguration Configuration { get; }
@@ -28,16 +29,16 @@ namespace hospital_administration
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(
+                    ("Server=localhost;Port=5432;Database=mydb;User Id=postgres;Password=parola;")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-               // .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             
             services.AddDbContext<PatientsContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(("Server=localhost;Port=5432;Database=mydb;User Id=postgres;Password=parola;")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
