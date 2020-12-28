@@ -2,10 +2,10 @@
 @model RegisterModel
 @{
     ViewData["Title"] = "Register";
-    Layout = null;
+    //Layout = null;
 }
 
-@*
+
 <h1>@ViewData["Title"]</h1>
 
 <div class="row">
@@ -84,9 +84,10 @@
         </section>
     </div>
 </div>
-*@
 
 
+
+@*
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
@@ -227,10 +228,9 @@
     <!-- Main JS-->
     <script src="~/Registration/js/global.js"></script>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>*@
 
 
-@*@section Scripts {
+@section Scripts {
     <partial name="_ValidationScriptsPartial" />
-}*@
-
+}
