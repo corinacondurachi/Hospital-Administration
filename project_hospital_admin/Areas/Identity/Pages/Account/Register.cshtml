@@ -2,11 +2,10 @@
 @model RegisterModel
 @{
     ViewData["Title"] = "Register";
-    //Layout = null;
+    Layout = null;
 }
 
-
-<h1>@ViewData["Title"]</h1>
+@*<h1>@ViewData["Title"]</h1>
 
 <div class="row">
     <div class="col-md-4">
@@ -53,41 +52,12 @@
             <button type="submit" class="btn btn-primary">Register</button>
         </form>
     </div>
-    <div class="col-md-6 col-md-offset-2">
-        <section>
-            <h4>Use another service to register.</h4>
-            <hr />
-            @{
-                if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                {
-                    <div>
-                        <p>
-                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
-                            for details on setting up this ASP.NET application to support logging in via external services.
-                        </p>
-                    </div>
-                }
-                else
-                {
-                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                        <div>
-                            <p>
-                                @foreach (var provider in Model.ExternalLogins)
-                                {
-                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                }
-                            </p>
-                        </div>
-                    </form>
-                }
-            }
-        </section>
-    </div>
-</div>
+   
+</div>*@
 
 
 
-@*
+
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
@@ -119,67 +89,72 @@
             <div class="card card-4">
                 <div class="card-body">
                     <h2 class="title">Creeaza Cont</h2>
-                    <form method="POST">
+                    <form method="POST" id="signup-form" class="signup-form" asp-route-returnUrl="@Model.ReturnUrl">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label asp-for="Input.Email"  class="label">Email*</label>
-                                    <input asp-for="Input.Email" class="input--style-4" type="email" name="email" />
+                                    <label asp-for="Input.Email" class="label">Email*</label>
+                                    <input asp-for="Input.Email" class="input--style-4" />
                                     <span asp-validation-for="Input.Email" class="text-danger"></span>
-                                    
                                 </div>
                             </div>
 
                             <div class="col-2">
                                 <div class="input-group">
                                     <label asp-for="Input.Password" class="label">Parola*</label>
-                                    <input asp-for="Input.Password" class="input--style-4" type="password" name="parola" />
+                                    <input asp-for="Input.Password" class="input--style-4" />
                                     <span asp-validation-for="Input.Password" class="text-danger"></span>
 
                                 </div>
                             </div>
                         </div>
-                        
-                          <div class="row row-space">
-                                                      
-                              <div class="col-2">
-                                  <div class="input-group">
-                                      <label class="label">Confirma Parola*</label>
-                                      <input class="input--style-4" type="password" name="parola">
-                                      </div>
-                                  </div>
-                              </div>
+
+                        <div class="row row-space">
+
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label asp-for="Input.ConfirmPassword" class="label">Confirma Parola*</label>
+                                    <input asp-for="Input.ConfirmPassword" class="input--style-4" >
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Input.Sex" class="label"></label>
+                                <input asp-for="Input.Sex" class="input--style-4"/>
+                            </div>
+                        </div>
 
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Nume de familie*</label>
-                                    <input asp-for="Input.FirstName" class="input--style-4" type="text" name="first_name"/>
-                                    
+                                    <label asp-for="Input.FirstName" class="label">Nume de familie*</label>
+                                    <input asp-for="Input.FirstName" class="input--style-4"/>
+
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Prenume*</label>
-                                    <input asp-for="Input.LastName" class="input--style-4" type="text" name="last_name"/>
+                                    <label asp-for="Input.LastName" class="label">Prenume*</label>
+                                    <input asp-for="Input.LastName" class="input--style-4" />
                                 </div>
                             </div>
                         </div>
                         <div class="row row-space">
                             <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Data Nasterii*</label>
+                                @*<div class="input-group">
+                                    <label asp-for="Input.Birthdate" class="label">Data Nasterii*</label>
                                     <div class="input-group-icon">
-                                        <input class="input--style-4 js-datepicker" type="text" name="birthday">
+                                        <input asp-for="Input.Birthdate" class="input--style-4 js-datepicker" >
                                         <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
                                     </div>
-                                </div>
+                                </div>*@
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label asp-for="Input.Sex" class="label">Sex</label>
-                                    
-                                   
+                                    @*<label asp-for="Input.Sex" class="label">Sex</label>*@
+
                                     <div class="p-t-10">
                                         <label class="radio-container m-r-45">Masculin
                                             <input type="radio" checked="checked" name="gender">
@@ -194,17 +169,17 @@
                             </div>
                         </div>
                         <div class="row row-space">
-                            
+
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Numar Telefon*</label>
-                                    <input asp-for="Input.PhoneNumber" class="input--style-4" type="text" name="phone">
+                                    <label asp-for="Input.PhoneNumber" class="label">Numar Telefon*</label>
+                                    <input asp-for="Input.PhoneNumber" class="input--style-4" >
                                 </div>
                             </div>
-                             <div class="col-2">
+                            <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">CNP</label>
-                                    <input asp-for="Input.Cnp" class="input--style-4" type="text" name="cnp">
+                                    <label asp-for="Input.Cnp" class="label">CNP</label>
+                                    <input asp-for="Input.Cnp" class="input--style-4" >
                                 </div>
                             </div>
                         </div>
@@ -228,9 +203,11 @@
     <!-- Main JS-->
     <script src="~/Registration/js/global.js"></script>
 
-</body>*@
+</body>
 
 
+@*
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+*@
