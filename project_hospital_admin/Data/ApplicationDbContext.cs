@@ -9,12 +9,12 @@ namespace project_hospital_admin.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public ApplicationDbContext(DbContextOptions options)
             : base(options)
         {
         }
         
-        //public DbSet <Patient> Patients { get; set; }
+        public DbSet <ApplicationUser> ApplicationUsers { get; set; }
         
     }
 }

@@ -61,6 +61,24 @@ namespace project_hospital_admin.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+            
+            [Required]
+            public string FirstName { get; set; }
+
+            [Required]
+            public string LastName { get; set; }
+        
+            [Required]
+            public string Sex { get; set; }
+        
+            public DataType Birthdate { get; set; }
+        
+            [Required]
+            public string PhoneNumber { get; set; }
+        
+            public string Cnp { get; set; }
+            
+            
         }
 
         public async Task OnGetAsync(string returnUrl = null)
@@ -75,7 +93,7 @@ namespace project_hospital_admin.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email };
+                var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email, Sex = Input.Sex, FirstName = Input.FirstName, LastName = Input.LastName, PasswordHash = Input.ConfirmPassword, PhoneNumber = Input.PhoneNumber };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {

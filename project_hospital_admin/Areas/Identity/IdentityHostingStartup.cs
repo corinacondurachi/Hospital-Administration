@@ -20,8 +20,8 @@ namespace project_hospital_admin.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("project_hospital_adminIdentityDbContextConnection")));
 
-                services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddEntityFrameworkStores<project_hospital_adminIdentityDbContext>();
+                /*services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                    .AddEntityFrameworkStores<project_hospital_adminIdentityDbContext>();*/
             });
         }
     }

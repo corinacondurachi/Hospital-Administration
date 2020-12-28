@@ -12,6 +12,7 @@ using project_hospital_admin.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using project_hospital_admin.Models;
 
 namespace project_hospital_admin
 {
@@ -32,14 +33,11 @@ namespace project_hospital_admin
                     Configuration.GetConnectionString("PatientDbContextConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            //services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-               // .AddEntityFrameworkStores<ApplicationDbContext>();
-           // services.AddControllersWithViews();
-            
-            services.AddDbContext<PatientDbContext>(options =>
-                options.UseNpgsql(
-                    Configuration.GetConnectionString("PatientDbContextConnection")));
-            
+            services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
+                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddControllersWithViews();
+             services.AddRazorPages();
+             
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

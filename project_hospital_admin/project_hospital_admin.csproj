@@ -22,4 +22,9 @@
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Data\Migrations" />
+      <Folder Include="Migrations" />
+    </ItemGroup>
+
 </Project>

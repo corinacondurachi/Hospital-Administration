@@ -94,22 +94,16 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="HomeController.cs" t="Include" />
+        <e p="PatientsController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="ApplicationDbContext.cs" t="Include" />
-        <e p="Migrations" t="Include">
-          <e p="00000000000000_CreateIdentitySchema.cs" t="Include" />
-          <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
-          <e p="20201227164955_ExtendTable.cs" t="Include" />
-          <e p="20201227164955_ExtendTable.Designer.cs" t="Include" />
-          <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
-        </e>
-        <e p="PatientDbContext.cs" t="Include" />
+        <e p="Migrations" t="Include" />
       </e>
       <e p="Migrations" t="Include">
-        <e p="20201227112204_TablePacients.cs" t="Include" />
-        <e p="20201227112204_TablePacients.Designer.cs" t="Include" />
-        <e p="PatientDbContextModelSnapshot.cs" t="Include" />
+        <e p="20201228150834_InitialCreate.cs" t="Include" />
+        <e p="20201228150834_InitialCreate.Designer.cs" t="Include" />
+        <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="ApplicationUser.cs" t="Include" />
