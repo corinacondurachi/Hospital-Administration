@@ -23,39 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22689270-4dda-4b92-a1e8-5e02f4b0d42c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/PatientsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Identity/IdentityHostingStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/IdentityHostingStartup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Migrations/00000000000000_CreateIdentitySchema.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Migrations/20201227164955_ExtendTable.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Migrations/20201227164955_ExtendTable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/PatientDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20201227112204_TablePacients.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20201227112204_TablePacients.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/PatientDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Patient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Patient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Registration.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Registration.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/project_hospital_admin.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Areas/Identity/Pages/Account/Register.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Areas/Identity/Pages/Account/Register.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Registration.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Registration.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_hospital_admin.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/project_hospital_admin.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,15 +90,16 @@
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" />
         <option value="$PROJECT_DIR$/Models/Patient.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Data/Migrations/ApplicationDbContextModelSnapshot.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/IdentityHostingStartup.cs" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" />
         <option value="$PROJECT_DIR$/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/Controllers/PatientsController.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Views/Home/Registration.cshtml" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" />
       </list>
     </option>
   </component>
@@ -198,7 +182,7 @@
       <workItem from="1609150411820" duration="8174000" />
       <workItem from="1609164086040" duration="1638000" />
       <workItem from="1609165868935" duration="1090000" />
-      <workItem from="1609167024915" duration="1048000" />
+      <workItem from="1609167024915" duration="4139000" />
     </task>
     <servers />
   </component>
@@ -228,36 +212,36 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="361" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1609066522699" />
-    <state width="1206" height="244" key="GridCell.Tab.0.bottom" timestamp="1609168093131">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state width="1206" height="227" key="GridCell.Tab.0.bottom" timestamp="1609171437041">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="147" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609167902758" />
-    <state width="1206" height="147" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1609167759904" />
-    <state width="1206" height="244" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1609168093131" />
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609168985226" />
+    <state width="1206" height="227" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1609171437041" />
+    <state width="1206" height="227" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1609169985834" />
     <state width="1206" height="193" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1609068718759" />
     <state width="1206" height="193" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1609069030681" />
-    <state width="1206" height="244" key="GridCell.Tab.0.center" timestamp="1609168093128">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state width="1206" height="227" key="GridCell.Tab.0.center" timestamp="1609171437040">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="147" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609167902756" />
-    <state width="1206" height="147" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1609167759903" />
-    <state width="1206" height="244" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1609168093128" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609168985224" />
+    <state width="1206" height="227" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1609171437040" />
+    <state width="1206" height="227" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1609169985833" />
     <state width="1206" height="193" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1609068718757" />
     <state width="1206" height="193" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1609069030679" />
-    <state width="1206" height="244" key="GridCell.Tab.0.left" timestamp="1609168093127">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state width="1206" height="227" key="GridCell.Tab.0.left" timestamp="1609171437040">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="147" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609167902756" />
-    <state width="1206" height="147" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1609167759900" />
-    <state width="1206" height="244" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1609168093127" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609168985223" />
+    <state width="1206" height="227" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1609171437040" />
+    <state width="1206" height="227" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1609169985833" />
     <state width="1206" height="193" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1609068718757" />
     <state width="1206" height="193" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1609069030678" />
-    <state width="1206" height="244" key="GridCell.Tab.0.right" timestamp="1609168093129">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state width="1206" height="227" key="GridCell.Tab.0.right" timestamp="1609171437040">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="147" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609167902757" />
-    <state width="1206" height="147" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1609167759904" />
-    <state width="1206" height="244" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1609168093129" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609168985225" />
+    <state width="1206" height="227" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1609171437040" />
+    <state width="1206" height="227" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1609169985834" />
     <state width="1206" height="193" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1609068718758" />
     <state width="1206" height="193" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1609069030679" />
     <state width="244" height="504" key="HiddenNamespacesPopup" timestamp="1609088709924">
