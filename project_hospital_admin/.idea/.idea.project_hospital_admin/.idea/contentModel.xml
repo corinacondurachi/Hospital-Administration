@@ -132,10 +132,8 @@
         <e p="_ViewStart.cshtml" t="Include" />
         <e p="Home" t="Include">
           <e p="AutentificationDoctors.cshtml" t="Include" />
-          <e p="AutentificationPatients.cshtml" t="Include" />
           <e p="Index.cshtml" t="Include" />
           <e p="Privacy.cshtml" t="Include" />
-          <e p="Registration.cshtml" t="Include" />
           <e p="Team.cshtml" t="Include" />
         </e>
         <e p="Shared" t="Include">

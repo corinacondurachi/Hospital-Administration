@@ -63,10 +63,8 @@
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/project_hospital_admin.RazorCoreGenerate.cache
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Home/AutentificationDoctors.cshtml.g.cs
-/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Home/AutentificationPatients.cshtml.g.cs
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
-/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Home/Registration.cshtml.g.cs
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Home/Team.cshtml.g.cs
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs

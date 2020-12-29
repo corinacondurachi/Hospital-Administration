@@ -15,7 +15,7 @@ namespace project_hospital_admin.Models
         [Required]
         public string Sex { get; set; }
         
-        public string Birthdate { get; set; }
+        public DataType Birthdate { get; set; }
         
         [Required]
         public string PhoneNumber { get; set; }
