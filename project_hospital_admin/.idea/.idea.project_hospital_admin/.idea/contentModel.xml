@@ -93,8 +93,8 @@
       </e>
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
+        <e p="AppointmentsController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
-        <e p="PatientsController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="ApplicationDbContext.cs" t="Include" />
@@ -105,10 +105,13 @@
         <e p="20201228150834_InitialCreate.Designer.cs" t="Include" />
         <e p="20201229104515_ChangedTable.cs" t="Include" />
         <e p="20201229104515_ChangedTable.Designer.cs" t="Include" />
+        <e p="20201229132119_AppTable.cs" t="Include" />
+        <e p="20201229132119_AppTable.Designer.cs" t="Include" />
         <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="ApplicationUser.cs" t="Include" />
+        <e p="Appointment.cs" t="Include" />
         <e p="ErrorViewModel.cs" t="Include" />
         <e p="Patient.cs" t="Include" />
       </e>
@@ -132,6 +135,9 @@
       <e p="Views" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
+        <e p="Appointments" t="Include">
+          <e p="CreateAppointment.cshtml" t="Include" />
+        </e>
         <e p="Home" t="Include">
           <e p="AutentificationDoctors.cshtml" t="Include" />
           <e p="Index.cshtml" t="Include" />
@@ -146,6 +152,26 @@
         </e>
       </e>
       <e p="wwwroot" t="Include">
+        <e p="Appointment" t="Include">
+          <e p="css" t="Include">
+            <e p="calendarview.css" t="Include" />
+            <e p="styles" t="Include">
+              <e p="form.css" t="Include" />
+              <e p="nova.css" t="Include" />
+            </e>
+          </e>
+          <e p="js" t="Include">
+            <e p="calendarview.js" t="Include" />
+            <e p="jotform.js" t="Include" />
+            <e p="location.js" t="Include" />
+            <e p="protoplus-ui-form.js" t="Include" />
+            <e p="protoplus.js" t="Include" />
+            <e p="prototype.js" t="Include" />
+            <e p="vendor" t="Include">
+              <e p="json2.js" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="css" t="Include">
           <e p="site.css" t="Include" />
         </e>

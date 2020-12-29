@@ -15,6 +15,8 @@ namespace project_hospital_admin.Data
         }
         
         public DbSet <ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet <Appointment> Appointments { get; set; }
+
         
     }
 }

@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations;
+/*using System.ComponentModel.DataAnnotations;
 
 
 namespace project_hospital_admin.Models
@@ -34,4 +34,4 @@ namespace project_hospital_admin.Models
         
         public string Cnp { get; set; }
     }
-}
+}*/

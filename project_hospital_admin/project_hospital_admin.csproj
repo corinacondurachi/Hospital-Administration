@@ -25,6 +25,11 @@
     <ItemGroup>
       <Folder Include="Data\Migrations" />
       <Folder Include="Migrations" />
+      <Folder Include="wwwroot\Appointment" />
+    </ItemGroup>
+
+    <ItemGroup>
+       
     </ItemGroup>
 
 </Project>

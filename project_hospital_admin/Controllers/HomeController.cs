@@ -33,15 +33,12 @@ namespace project_hospital_admin.Controllers
             return View();
         }
         
-        public IActionResult Registration()
-        {
-            return View();
-        }
         
-        public IActionResult AutentificationPatients()
-        {
-            return View();
-        }
+        
+        // public IActionResult CreateAppointment()
+        // {
+        //     return View();
+        // }
         
         public IActionResult AutentificationDoctors()
         {
