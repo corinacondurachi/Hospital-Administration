@@ -57,8 +57,8 @@ namespace project_hospital_admin.Models
         [Required]
         public string AppointmentTime { get; set; }
         
-        [Required]
-        public string Doctor { get; set; }
+       // [Required]
+       // public string Doctor { get; set; }
         
     }
 }
