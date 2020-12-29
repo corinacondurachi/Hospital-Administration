@@ -103,6 +103,8 @@
       <e p="Migrations" t="Include">
         <e p="20201228150834_InitialCreate.cs" t="Include" />
         <e p="20201228150834_InitialCreate.Designer.cs" t="Include" />
+        <e p="20201229104515_ChangedTable.cs" t="Include" />
+        <e p="20201229104515_ChangedTable.Designer.cs" t="Include" />
         <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">

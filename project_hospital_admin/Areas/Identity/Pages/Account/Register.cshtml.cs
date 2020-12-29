@@ -60,22 +60,25 @@ namespace project_hospital_admin.Areas.Identity.Pages.Account
             public string ConfirmPassword { get; set; }
             
             [Required]
+            [RegularExpression(@"^[a-zA-z]+([\s][a-zA-Z]+)*$", ErrorMessage = "Prenumele poate sa contina doar litere si spatii")]
             public string FirstName { get; set; }
 
             [Required]
+            [RegularExpression(@"^[a-zA-z]+([\s][a-zA-Z]+)*$", ErrorMessage = "Numele poate sa contina doar litere si spatii")]
             public string LastName { get; set; }
         
             [Required]
             public string Sex { get; set; }
         
-            public DataType Birthdate { get; set; }
+            public string Birthdate { get; set; }
         
             [Required]
+            [RegularExpression(@"^[0-9]*$", ErrorMessage = "Numarul de telefon poate sa contina doar cifre")]
             public string PhoneNumber { get; set; }
         
+            [RegularExpression(@"^[1256][0-9]{12}$", ErrorMessage = "CNP invalid")]
             public string Cnp { get; set; }
-            
-            
+
         }
 
         public async Task OnGetAsync(string returnUrl = null)
@@ -90,7 +93,7 @@ namespace project_hospital_admin.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email, Sex = Input.Sex, FirstName = Input.FirstName, LastName = Input.LastName, PasswordHash = Input.ConfirmPassword, PhoneNumber = Input.PhoneNumber };
+                var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email, Sex = Input.Sex, FirstName = Input.FirstName, LastName = Input.LastName, PasswordHash = Input.ConfirmPassword, PhoneNumber = Input.PhoneNumber, Cnp = Input.Cnp, Birthdate = Input.Birthdate};
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
