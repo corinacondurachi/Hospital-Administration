@@ -23,20 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22689270-4dda-4b92-a1e8-5e02f4b0d42c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Appointment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Appointment.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Appointments/CreateAppointment.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Appointments/CreateAppointment.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Appointments/CreateAppointment.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Appointments/CreateAppointment.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/project_hospital_admin.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +91,8 @@
         <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/Controllers/AppointmentsController.cs" />
-        <option value="$PROJECT_DIR$/Views/Appointments/CreateAppointment.cshtml" />
         <option value="$PROJECT_DIR$/Models/Appointment.cs" />
+        <option value="$PROJECT_DIR$/Views/Appointments/CreateAppointment.cshtml" />
       </list>
     </option>
   </component>
@@ -192,7 +179,7 @@
       <workItem from="1609173833770" duration="1671000" />
       <workItem from="1609186397538" duration="1744000" />
       <workItem from="1609191377784" duration="3294000" />
-      <workItem from="1609228707734" duration="22634000" />
+      <workItem from="1609228707734" duration="23121000" />
     </task>
     <servers />
   </component>
