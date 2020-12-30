@@ -107,6 +107,8 @@
         <e p="20201229104515_ChangedTable.Designer.cs" t="Include" />
         <e p="20201229132119_AppTable.cs" t="Include" />
         <e p="20201229132119_AppTable.Designer.cs" t="Include" />
+        <e p="20201230092841_FinishedAppointment.cs" t="Include" />
+        <e p="20201230092841_FinishedAppointment.Designer.cs" t="Include" />
         <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">

@@ -2443,7 +2443,7 @@ if (window.JotForm && JotForm.accessible) $('input_21').setAttribute('tabindex',
 	  }
 
 	  return update;
-	})({"text":{"text":"Question","value":"Appointment"},"labelAlign":{"text":"Label Align","value":"Top","dropdown":[["Auto","Auto"],["Left","Left"],["Right","Right"],["Top","Top"]]},"required":{"text":"Required","value":"No","dropdown":[["No","No"],["Yes","Yes"]]},"description":{"text":"Hover Text","value":"","textarea":true},"slotDuration":{"text":"Slot Duration","value":"30","dropdown":[[15,"15 min"],[30,"30 min"],[45,"45 min"],[60,"60 min"],["custom","Custom min"]],"hint":"Select how long each slot will be."},"startDate":{"text":"Start Date","value":""},"endDate":{"text":"End Date","value":""},"intervals":{"text":"Intervals","value":[{"from":"09:00","to":"17:00","days":["Mon","Tue","Wed","Thu","Fri"]}],"hint":"The hours will be applied to the selected days and repeated."},"useBlockout":{"text":"Blockout Custom Dates","value":"No","dropdown":[["No","No"],["Yes","Yes"]],"hint":"Disable certain date(s) in the calendar."},"blockoutDates":{"text":"Blockout dates","value":[{"startDate":"","endDate":""}]},"useLunchBreak":{"text":"Lunch Time","value":"Yes","dropdown":[["No","No"],["Yes","Yes"]],"hint":"Enable lunchtime in the calendar."},"lunchBreak":{"text":"Lunchtime hours","value":[{"from":"12:00","to":"14:00"}]},"timezone":{"text":"Timezone","value":"America/New_York (GMT-4:00)"},"timeFormat":{"text":"Time Format","value":"","dropdown":[["24 Hour","24 Hour"],["AM/PM","AM/PM"]],"icon":"images/blank.gif","iconClassName":"toolbar-time_format_24"},"months":{"value":["January","February","March","April","May","June","July","August","September","October","November","December"],"hidden":true},"days":{"value":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"hidden":true},"startWeekOn":{"text":"Start Week On","value":"","dropdown":[["Monday","Monday"],["Sunday","Sunday"]],"toolbar":false},"rollingDays":{"text":"Rolling Days","value":"","toolbar":false},"appointmentType":{"hidden":true,"value":"single"},"dateFormat":{"hidden":true,"value":"mm/dd/yyyy"},"maxAttendee":{"hidden":true,"value":"5"},"minScheduleNotice":{"hidden":true,"value":"3"},"name":{"hidden":true,"value":"appointment"},"order":{"hidden":true,"value":"10"},"qid":{"toolbar":false,"value":"input_25"},"type":{"hidden":true,"value":"control_appointment"},"id":{"toolbar":false,"value":"25"},"qname":{"toolbar":false,"value":"q25_appointment"},"cdnconfig":{"CDN":"https://cdn.jotfor.ms/"},"passive":false,"formProperties":{"products":false,"highlightLine":"Enabled","coupons":false,"useStripeCoupons":false,"taxes":false,"comparePaymentForm":"","paymentListSettings":false,"newPaymentUIForNewCreatedForms":false,"formBackground":"rgba(255, 255, 255, 0.88)"},"formID":203621818570353,"themeVersion":"v1"});
+	})({"text":{"text":"Question","value":"Appointment"},"labelAlign":{"text":"Label Align","value":"Top","dropdown":[["Auto","Auto"],["Left","Left"],["Right","Right"],["Top","Top"]]},"required":{"text":"Required","value":"No","dropdown":[["No","No"],["Yes","Yes"]]},"description":{"text":"Hover Text","value":"","textarea":true},"slotDuration":{"text":"Slot Duration","value":"30","dropdown":[[15,"15 min"],[30,"30 min"],[45,"45 min"],[60,"60 min"],["custom","Custom min"]],"hint":"Select how long each slot will be."},"startDate":{"text":"Start Date","value":""},"endDate":{"text":"End Date","value":""},"intervals":{"text":"Intervals","value":[{"from":"09:00","to":"17:00","days":["Mon","Tue","Wed","Thu","Fri"]}],"hint":"The hours will be applied to the selected days and repeated."},"useBlockout":{"text":"Blockout Custom Dates","value":"No","dropdown":[["No","No"],["Yes","Yes"]],"hint":"Disable certain date(s) in the calendar."},"blockoutDates":{"text":"Blockout dates","value":[{"startDate":"","endDate":""}]},"useLunchBreak":{"text":"Lunch Time","value":"Yes","dropdown":[["No","No"],["Yes","Yes"]],"hint":"Enable lunchtime in the calendar."},"lunchBreak":{"text":"Lunchtime hours","value":[{"from":"12:00","to":"14:00"}]},"timezone":{"text":"Timezone","value":"Europe/Bucharest (GMT+2:00)"},"timeFormat":{"text":"Time Format","value":"","dropdown":[["24 Hour","24 Hour"],["AM/PM","AM/PM"]],"icon":"images/blank.gif","iconClassName":"toolbar-time_format_24"},"months":{"value":["January","February","March","April","May","June","July","August","September","October","November","December"],"hidden":true},"days":{"value":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"hidden":true},"startWeekOn":{"text":"Start Week On","value":"","dropdown":[["Monday","Monday"],["Sunday","Sunday"]],"toolbar":false},"rollingDays":{"text":"Rolling Days","value":"","toolbar":false},"appointmentType":{"hidden":true,"value":"single"},"dateFormat":{"hidden":true,"value":"mm/dd/yyyy"},"maxAttendee":{"hidden":true,"value":"5"},"minScheduleNotice":{"hidden":true,"value":"3"},"name":{"hidden":true,"value":"appointment"},"order":{"hidden":true,"value":"10"},"qid":{"toolbar":false,"value":"input_25"},"type":{"hidden":true,"value":"control_appointment"},"id":{"toolbar":false,"value":"25"},"qname":{"toolbar":false,"value":"q25_appointment"},"cdnconfig":{"CDN":"https://cdn.jotfor.ms/"},"passive":false,"formProperties":{"products":false,"highlightLine":"Enabled","coupons":false,"useStripeCoupons":false,"taxes":false,"comparePaymentForm":"","paymentListSettings":false,"newPaymentUIForNewCreatedForms":false,"formBackground":"rgba(255, 255, 255, 0.88)"},"formID":203621818570353,"themeVersion":"v1"});
   	JotForm.newDefaultTheme = false;
 	JotForm.extendsNewTheme = false;
 	JotForm.newPaymentUIForNewCreatedForms = false;
@@ -3004,21 +3004,21 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
           </span>
         </label>
         <div id="cid_22" class="form-input jf-required">
-          <select  class="form-dropdown validate[required]" id="input_22"  style="width:150px" data-component="dropdown" required="" aria-labelledby="label_22">
+          <select asp-for="Doctor"  class="form-dropdown validate[required]" id="input_22"  style="width:150px" data-component="dropdown" required="" aria-labelledby="label_22">
             <option value="">  </option>
-            <option value="Male"> DR. MEREDITH GREY - Chirurgie Generală</option>
-            <option value="Male"> DR. DEREK SHEPHERD - Neurochirurgie</option>
-            <option value="Male"> DR. MARK SLOAN - Chirurgie Plastică</option>
-            <option value="Male"> DR. CRISTINA YANG - Chirurgie Cardiovasculară</option>
-            <option value="Male"> DR. ALEX KAREV - Pediatrie</option>
-            <option value="Male"> DR. IZZIE STEVENS - Oncologie</option>
-            <option value="Male"> DR. ADDISON MONTGOMERY - Obstretică si Ginecologie
+            <option value="DR. MEREDITH GREY"> DR. MEREDITH GREY - Chirurgie Generală</option>
+            <option value="DR. DEREK SHEPHERD"> DR. DEREK SHEPHERD - Neurochirurgie</option>
+            <option value="DR. MARK SLOAN"> DR. MARK SLOAN - Chirurgie Plastică</option>
+            <option value="DR. CRISTINA YANG"> DR. CRISTINA YANG - Chirurgie Cardiovasculară</option>
+            <option value="DR. ALEX KAREV"> DR. ALEX KAREV - Pediatrie</option>
+            <option value="DR. IZZIE STEVENS"> DR. IZZIE STEVENS - Oncologie</option>
+            <option value="DR. ADDISON MONTGOMERY"> DR. ADDISON MONTGOMERY - Obstretică si Ginecologie
 	</option>
-            <option value="Male"> DR. JACKSON AVERY - Oftalmologie</option>
-            <option value="Male"> DR. LEXIE GREY - ORL</option>
-            <option value="Male"> DR. AMELIA SHEPHERD - Dermatologie</option>
-            <option value="Male"> DR. CALLIE TORRES - Ortopedie</option>
-            <option value="Male"> DR. MIRANDA BAILEY - Radiologie</option>
+            <option value="DR. JACKSON AVERY"> DR. JACKSON AVERY - Oftalmologie</option>
+            <option value="DR. LEXIE GREY"> DR. LEXIE GREY - ORL</option>
+            <option value="DR. AMELIA SHEPHERD"> DR. AMELIA SHEPHERD - Dermatologie</option>
+            <option value="DR. CALLIE TORRES"> DR. CALLIE TORRES - Ortopedie</option>
+            <option value="DR. MIRANDA BAILEY"> DR. MIRANDA BAILEY - Radiologie</option>
           </select>
         </div>
       </li>
@@ -3055,7 +3055,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
       <li class="form-line" data-type="control_textarea" id="id_21">
         <label class="form-label form-label-top" id="label_21" for="input_21"> Daca da, va rugam sa ne spuneti in ce conditii si cand </label>
         <div id="cid_21" class="form-input-wide">
-          <textarea asp-for="VisitMotive" id="input_21" class="form-textarea" name="q21_ifYes" cols="40" rows="6" data-component="textarea" aria-labelledby="label_21"></textarea>
+          <textarea asp-for="VisitMotive" id="input_21" class="form-textarea" cols="40" rows="6" data-component="textarea" aria-labelledby="label_21"></textarea>
         </div>
       </li>
       <li class="form-line" data-type="control_appointment" id="id_25">
@@ -3063,8 +3063,8 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
         <div id="cid_25" class="form-input-wide">
           <div id="input_25" class="appointmentFieldWrapper jfQuestion-fields">
             <input asp-for="AppointmentDate" class="appointmentFieldInput "  id="input_25_date" />
-            <input   class="appointmentFieldInput" name="q25_appointment[duration]" value="30" id="input_25_duration" />
-            <input asp-for="AppointmentTime" class="appointmentFieldInput"  value="Europe/Bucharest (GMT+2:00)" id="input_25_timezone" />
+            <input   class="appointmentFieldInput"   id="input_25_duration" />
+            <input  class="appointmentFieldInput"   id="input_25_timezone" />
             <div class="appointmentField">
             </div>
           </div>
