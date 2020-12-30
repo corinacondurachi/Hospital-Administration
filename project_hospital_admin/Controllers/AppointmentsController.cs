@@ -13,7 +13,7 @@ namespace project_hospital_admin.Controllers
             _context = applicationDbContext;
         }
         
-        // GET: /appointment/create
+        // GET: /Appointments/CreateAppointment
         [HttpGet]
         public ActionResult CreateAppointment()
         {
@@ -21,7 +21,7 @@ namespace project_hospital_admin.Controllers
         }
         
         [HttpPost]
-        // POST: /appointment/create
+        // POST: /Appointments/CreateAppointment
         public ActionResult CreateAppointment (Appointment appointment)
         {
             if (ModelState.IsValid)
