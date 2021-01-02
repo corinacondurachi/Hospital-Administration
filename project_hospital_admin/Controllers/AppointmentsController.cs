@@ -30,11 +30,19 @@ namespace project_hospital_admin.Controllers
 
                 _context.SaveChanges();
 
-                return RedirectToAction("CreateAppointment", "Appointments");
+                return RedirectToAction("ViewAppointments", "Appointments");
             }   
 
             return View(appointment);
           
+        }
+        
+        // GET: /Appointments/ViewAppointments
+        [HttpGet]
+        public ActionResult ViewAppointments()
+        {
+            //ViewData["appointments"] = _context.Appointments.;
+            return View();
         }
 
     }
