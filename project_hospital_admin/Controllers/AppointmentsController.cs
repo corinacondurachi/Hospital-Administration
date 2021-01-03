@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using project_hospital_admin.Data;
 using project_hospital_admin.Models;
@@ -41,6 +42,7 @@ namespace project_hospital_admin.Controllers
         
         // GET: /Appointments/ViewAppointments
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public ActionResult ViewAppointments()
         {
             ViewData["appointments"] = _context.Appointments.ToList();

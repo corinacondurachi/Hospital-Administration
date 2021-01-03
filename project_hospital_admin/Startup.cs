@@ -33,15 +33,20 @@ namespace project_hospital_admin
                     Configuration.GetConnectionString("PatientDbContextConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddControllersWithViews();
-             services.AddRazorPages();
+            // services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
+            //     .AddEntityFrameworkStores<ApplicationDbContext>();
+            // services.AddControllersWithViews();
+            //  services.AddRazorPages();
+             
+             services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+                  .AddDefaultUI() 
+                  .AddDefaultTokenProviders()
+                 .AddEntityFrameworkStores<ApplicationDbContext>();
              
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider serviceProvider)
         {
             if (env.IsDevelopment())
             {
@@ -70,6 +75,53 @@ namespace project_hospital_admin
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+            
+            Roles(serviceProvider);
         }
+        
+        private void Roles(IServiceProvider serviceProvider)
+        {
+            var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            Task<bool> var = roleManager.RoleExistsAsync("Patient");
+            var.Wait();
+            Task<bool> var1 = roleManager.RoleExistsAsync("Admin");
+            var1.Wait();
+
+            if (var.Result)
+            {
+                var roleResult = roleManager.CreateAsync(new IdentityRole("Patient"));
+                roleResult.Wait();
+            }
+            
+            if (var1.Result)
+            {
+                var roleResult = roleManager.CreateAsync(new IdentityRole("Admin"));
+                roleResult.Wait();
+                
+                var newUser = new ApplicationUser();
+                newUser.Email = "corina_condurachi@gmail.com";
+                newUser.UserName = "corina_condurachi@gmail.com";
+                newUser.Cnp = "2990117170017";
+                newUser.Sex = "F";
+                newUser.FirstName = "Corina";
+                newUser.LastName = "Condurachi";
+                newUser.PhoneNumber = "0756055943";
+                
+
+                Task<IdentityResult> task = userManager.CreateAsync(newUser, "Parola99!");
+                task.Wait();
+                
+                if (task.Result.Succeeded)
+                {
+                    userManager.AddToRoleAsync(newUser, "Admin").Wait(); 
+                    
+                }
+                
+            }
+
+        }
+
+        
     }
 }
