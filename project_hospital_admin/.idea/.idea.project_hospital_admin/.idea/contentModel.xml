@@ -139,6 +139,7 @@
         <e p="_ViewStart.cshtml" t="Include" />
         <e p="Appointments" t="Include">
           <e p="CreateAppointment.cshtml" t="Include" />
+          <e p="EditAppointment.cshtml" t="Include" />
           <e p="ViewAppointments.cshtml" t="Include" />
         </e>
         <e p="Home" t="Include">
