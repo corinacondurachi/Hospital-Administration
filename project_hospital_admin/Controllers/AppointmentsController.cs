@@ -1,7 +1,9 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using project_hospital_admin.Data;
 using project_hospital_admin.Models;
 
@@ -46,6 +48,16 @@ namespace project_hospital_admin.Controllers
         public ActionResult ViewAppointments()
         {
             ViewData["appointments"] = _context.Appointments.ToList();
+            return View();
+        }
+        
+        // GET: /Appointments/ViewAppointments/{email}
+        [HttpGet]
+        public ActionResult ViewAppointmentsPatient(String email)
+        {
+            
+             ViewData["appointments"] = _context.Appointments.ToList().Where(x => String.Equals( x.EmailAddress,email));
+
             return View();
         }
         

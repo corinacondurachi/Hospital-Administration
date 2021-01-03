@@ -447,3 +447,4 @@
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Appointments/CreateAppointment.cshtml.g.cs
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Appointments/ViewAppointments.cshtml.g.cs
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Appointments/EditAppointment.cshtml.g.cs
+/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Appointments/ViewAppointmentsPatient.cshtml.g.cs
