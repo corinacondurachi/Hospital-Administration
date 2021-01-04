@@ -74,7 +74,16 @@ namespace project_hospital_admin.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
-            returnUrl ??= Url.Content("/Appointments/ViewAppointments");
+            // daca e Admin, va vedea toate programarile facute, daca nu doar cele setate de el
+            bool isAdmin = User.IsInRole("Admin");
+            if (!isAdmin)
+            {
+                returnUrl ??= Url.Content("/Appointments/ViewAppointmentsPatient");
+            }
+            else
+            {
+                returnUrl ??= Url.Content("/Appointments/ViewAppointments");
+            }
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         

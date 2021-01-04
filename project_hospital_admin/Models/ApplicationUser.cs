@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
@@ -25,6 +26,10 @@ namespace project_hospital_admin.Models
         
         [RegularExpression(@"^[1256][0-9]{12}$", ErrorMessage = "CNP invalid")]
         public string Cnp { get; set; }
-        
+
+        public string Role { get; set; } = "Patient";
+
+        // public ICollection<Appointment> Appointments { get; set; }
+
     }
 }

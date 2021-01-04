@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using project_hospital_admin.Data;
@@ -9,9 +10,10 @@ using project_hospital_admin.Data;
 namespace project_hospital_admin.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210104085028_AddedUserId")]
+    partial class AddedUserId
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -157,6 +159,9 @@ namespace project_hospital_admin.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("integer");
 
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("text");
+
                     b.Property<string>("Birthdate")
                         .HasColumnType("text");
 
@@ -206,9 +211,6 @@ namespace project_hospital_admin.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("boolean");
 
-                    b.Property<string>("Role")
-                        .HasColumnType("text");
-
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("text");
 
@@ -224,6 +226,8 @@ namespace project_hospital_admin.Migrations
                         .HasColumnType("character varying(256)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
 
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
@@ -416,6 +420,13 @@ namespace project_hospital_admin.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("project_hospital_admin.Models.ApplicationUser", b =>
+                {
+                    b.HasOne("project_hospital_admin.Models.ApplicationUser", null)
+                        .WithMany("ApplicationUsers")
+                        .HasForeignKey("ApplicationUserId");
+                });
+
             modelBuilder.Entity("project_hospital_admin.Models.Appointment", b =>
                 {
                     b.HasOne("project_hospital_admin.Models.ApplicationUser", "ApplicationUser")
@@ -423,6 +434,11 @@ namespace project_hospital_admin.Migrations
                         .HasForeignKey("UserId");
 
                     b.Navigation("ApplicationUser");
+                });
+
+            modelBuilder.Entity("project_hospital_admin.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("ApplicationUsers");
                 });
 #pragma warning restore 612, 618
         }

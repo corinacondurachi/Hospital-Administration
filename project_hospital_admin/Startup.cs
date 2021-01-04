@@ -85,6 +85,8 @@ namespace project_hospital_admin
             var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
             Task<bool> var = roleManager.RoleExistsAsync("Patient");
             var.Wait();
+            Task<bool> var2 = roleManager.RoleExistsAsync("Doctor");
+            var2.Wait();
             Task<bool> var1 = roleManager.RoleExistsAsync("Admin");
             var1.Wait();
 
@@ -94,14 +96,20 @@ namespace project_hospital_admin
                 roleResult.Wait();
             }
             
+            if (var2.Result)
+            {
+                var roleResult = roleManager.CreateAsync(new IdentityRole("Doctor"));
+                roleResult.Wait();
+            }
+            
             if (var1.Result)
             {
                 var roleResult = roleManager.CreateAsync(new IdentityRole("Admin"));
                 roleResult.Wait();
                 
                 var newUser = new ApplicationUser();
-                newUser.Email = "corina_condurachi@gmail.com";
-                newUser.UserName = "corina_condurachi@gmail.com";
+                newUser.Email = "corina@gmail.com";
+                newUser.UserName = "corina@gmail.com";
                 newUser.Cnp = "2990117170017";
                 newUser.Sex = "F";
                 newUser.FirstName = "Corina";
@@ -125,3 +133,4 @@ namespace project_hospital_admin
         
     }
 }
+

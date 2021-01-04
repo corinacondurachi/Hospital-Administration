@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace project_hospital_admin.Models
 {
@@ -56,6 +57,14 @@ namespace project_hospital_admin.Models
         
         [Required]
         public string Doctor { get; set; }
+        
+        //[Required]
+        public string UserId { get; set; }
+        
+        [ForeignKey("UserId")]
+        public ApplicationUser ApplicationUser { get; set; }
+        
+        
         
     }
 }

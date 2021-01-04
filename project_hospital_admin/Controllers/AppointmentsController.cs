@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.EntityFrameworkCore;
 using project_hospital_admin.Data;
 using project_hospital_admin.Models;
 
@@ -29,6 +31,8 @@ namespace project_hospital_admin.Controllers
         // POST: /Appointments/CreateAppointment
         public ActionResult CreateAppointment (Appointment appointment)
         {
+            appointment.UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            
             if (ModelState.IsValid)
             {
                 _context.Appointments.Add(appointment);
@@ -51,13 +55,11 @@ namespace project_hospital_admin.Controllers
             return View();
         }
         
-        // GET: /Appointments/ViewAppointments/{email}
+        // GET: /Appointments/ViewAppointments/{currentUserId}
         [HttpGet]
-        public ActionResult ViewAppointmentsPatient(String email)
+        public ActionResult ViewAppointmentsPatient()
         {
-            
-             ViewData["appointments"] = _context.Appointments.ToList().Where(x => String.Equals( x.EmailAddress,email));
-
+            ViewData["appointments"] = _context.Appointments.Where(x => x.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier)).ToList();
             return View();
         }
         
