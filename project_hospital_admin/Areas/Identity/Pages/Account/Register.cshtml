@@ -129,7 +129,46 @@
                                 </div>
                             </div>
                             <div class="col-2">
-                                
+                                @{
+                                    bool isAdmin = User.IsInRole("Admin");
+                                    if (!isAdmin)
+                                    {
+                                        <div hidden class="input-group">
+                                            <label asp-for="Input.Role" class="label">Bifeaza optiunea</label>
+
+                                            <div class="p-t-10">
+                                                <label class="radio-container m-r-45">Pacient
+                                                    <input type="radio" asp-for="Input.Role" value="Pacient" checked="checked">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <label class="radio-container">Doctor
+                                                    <input type="radio" asp-for="Input.Role" value="Doctor">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        {
+                                            <div class="input-group">
+                                                <label asp-for="Input.Role" class="label">Bifeaza optiunea</label>
+
+                                                <div class="p-t-10">
+                                                    <label class="radio-container m-r-45">Pacient
+                                                        <input type="radio" asp-for="Input.Role" value="Pacient" checked="checked">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                    <label class="radio-container">Doctor
+                                                        <input type="radio" asp-for="Input.Role" value="Doctor">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                }
+
                             </div>
                         </div>
                         <div class="p-t-15">

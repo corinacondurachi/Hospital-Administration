@@ -27,7 +27,7 @@ namespace project_hospital_admin.Models
         [RegularExpression(@"^[1256][0-9]{12}$", ErrorMessage = "CNP invalid")]
         public string Cnp { get; set; }
 
-        public string Role { get; set; } = "Patient";
+        public string Role { get; set; } = "Pacient";
 
         // public ICollection<Appointment> Appointments { get; set; }
 

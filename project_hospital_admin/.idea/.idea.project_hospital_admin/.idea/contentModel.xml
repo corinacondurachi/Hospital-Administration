@@ -588,6 +588,33 @@
           </e>
         </e>
         <e p="team" t="Include">
+          <e p="assets" t="Include">
+            <e p="img" t="Include">
+              <e p="bg-masthead.jpg" t="Include" />
+              <e p="favicon.ico" t="Include" />
+              <e p="portfolio" t="Include">
+                <e p="fullsize" t="Include">
+                  <e p="1.jpg" t="Include" />
+                  <e p="2.jpg" t="Include" />
+                  <e p="3.jpg" t="Include" />
+                  <e p="4.jpg" t="Include" />
+                  <e p="5.jpg" t="Include" />
+                  <e p="6.jpg" t="Include" />
+                </e>
+                <e p="thumbnails" t="Include">
+                  <e p="1.jpg" t="Include" />
+                  <e p="2.jpg" t="Include" />
+                  <e p="3.jpg" t="Include" />
+                  <e p="4.jpg" t="Include" />
+                  <e p="5.jpg" t="Include" />
+                  <e p="6.jpg" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="css" t="Include">
+            <e p="styles.css" t="Include" />
+          </e>
           <e p="images" t="Include">
             <e p="1.jpg" t="Include" />
             <e p="10.jpg" t="Include" />
@@ -601,6 +628,9 @@
             <e p="7.jpg" t="Include" />
             <e p="8.jpg" t="Include" />
             <e p="9.jpg" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="scripts.js" t="Include" />
           </e>
           <e p="nicepage.css" t="Include" />
           <e p="Page-1.css" t="Include" />

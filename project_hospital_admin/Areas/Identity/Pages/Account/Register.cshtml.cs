@@ -78,6 +78,8 @@ namespace project_hospital_admin.Areas.Identity.Pages.Account
         
             [RegularExpression(@"^[1256][0-9]{12}$", ErrorMessage = "CNP invalid")]
             public string Cnp { get; set; }
+            
+            public string Role { get; set; } = "Pacient";
 
         }
 
@@ -93,7 +95,7 @@ namespace project_hospital_admin.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email, Sex = Input.Sex, FirstName = Input.FirstName, LastName = Input.LastName, PasswordHash = Input.ConfirmPassword, PhoneNumber = Input.PhoneNumber, Cnp = Input.Cnp, Birthdate = Input.Birthdate};
+                var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email, Sex = Input.Sex, FirstName = Input.FirstName, LastName = Input.LastName, PasswordHash = Input.ConfirmPassword, PhoneNumber = Input.PhoneNumber, Cnp = Input.Cnp, Birthdate = Input.Birthdate, Role = Input.Role};
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {

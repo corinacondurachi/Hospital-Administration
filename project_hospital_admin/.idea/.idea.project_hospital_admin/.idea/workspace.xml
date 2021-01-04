@@ -23,46 +23,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22689270-4dda-4b92-a1e8-5e02f4b0d42c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/RegisterDoctor.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104084759_AddedUser.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104084759_AddedUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104085028_AddedUserId.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104085028_AddedUserId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104091743_FixUserId.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104091743_FixUserId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104092020_FixedUserId.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104092020_FixedUserId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104092823_AddingUserId.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104092823_AddingUserId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104093231_Try.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104093231_Try.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104093835_Try2.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104093835_Try2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104094939_TryAgain.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104094939_TryAgain.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104114658_AddedRole.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20210104114658_AddedRole.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/bg-masthead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/fullsize/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/fullsize/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/fullsize/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/fullsize/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/fullsize/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/fullsize/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/thumbnails/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/thumbnails/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/thumbnails/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/thumbnails/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/thumbnails/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/assets/img/portfolio/thumbnails/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/team/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AppointmentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AppointmentsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/ApplicationUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ApplicationUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Appointment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Appointment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Appointments/ViewAppointments.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Appointments/ViewAppointments.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Team.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Team.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Areas/Identity/Pages/Account/Login.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Areas/Identity/Pages/Account/Login.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Areas/Identity/Pages/Account/Register.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Areas/Identity/Pages/Account/Register.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Appointments/ViewAppointments.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Appointments/ViewAppointments.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Team.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Team.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/project_hospital_admin.dll" afterDir="false" />
@@ -84,9 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.cs" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml.cs" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/ResetPassword.cshtml.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml.cs" />
@@ -106,7 +95,6 @@
         <option value="$PROJECT_DIR$/Areas/Identity/IdentityHostingStartup.cs" />
         <option value="$PROJECT_DIR$/Controllers/PatientsController.cs" />
         <option value="$PROJECT_DIR$/Views/Home/Registration.cshtml" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" />
         <option value="$PROJECT_DIR$/Views/Home/Create_Appointment.cs" />
         <option value="$PROJECT_DIR$/Views/Home/Create_Appointment.cshtml" />
         <option value="$PROJECT_DIR$/Views/Home/CreateAppointment.cshtml" />
@@ -127,14 +115,18 @@
         <option value="$PROJECT_DIR$/Migrations/20201229132119_AppTable.cs" />
         <option value="$PROJECT_DIR$/Models/Appointment.cs" />
         <option value="$PROJECT_DIR$/Controllers/AppointmentsController.cs" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/Models/ApplicationUser.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml" />
-        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs" />
         <option value="$PROJECT_DIR$/Views/Appointments/ViewAppointments.cshtml" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/RegisterDoctor.cs" />
         <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/RegisterDoctor.cs" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/RegisterDoctor.cshtml" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/RegisterDoctor.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Models/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Views/Home/Team.cshtml" />
       </list>
     </option>
   </component>
@@ -235,7 +227,7 @@
       <workItem from="1609688401720" duration="4579000" />
       <workItem from="1609747484402" duration="169000" />
       <workItem from="1609747679367" duration="9816000" />
-      <workItem from="1609759341222" duration="1828000" />
+      <workItem from="1609759341222" duration="4668000" />
     </task>
     <servers />
   </component>
@@ -265,39 +257,39 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="361" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1609066522699" />
-    <state width="1398" height="174" key="GridCell.Tab.0.bottom" timestamp="1609761438986">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="174" key="GridCell.Tab.0.bottom" timestamp="1609764781973">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609692048585" />
     <state width="1398" height="175" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1609698730950" />
-    <state width="1398" height="174" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1609758046249" />
+    <state width="1398" height="174" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1609764781973" />
     <state width="1398" height="174" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1609759083258" />
     <state width="1398" height="174" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1609761438986" />
     <state width="1398" height="174" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1609759285920" />
-    <state width="1398" height="174" key="GridCell.Tab.0.center" timestamp="1609761438985">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="174" key="GridCell.Tab.0.center" timestamp="1609764781972">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609692048583" />
     <state width="1398" height="175" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1609698730948" />
-    <state width="1398" height="174" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1609758046248" />
+    <state width="1398" height="174" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1609764781972" />
     <state width="1398" height="174" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1609759083257" />
     <state width="1398" height="174" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1609761438985" />
     <state width="1398" height="174" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1609759285919" />
-    <state width="1398" height="174" key="GridCell.Tab.0.left" timestamp="1609761438985">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="174" key="GridCell.Tab.0.left" timestamp="1609764781971">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609692048581" />
     <state width="1398" height="175" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1609698730948" />
-    <state width="1398" height="174" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1609758046247" />
+    <state width="1398" height="174" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1609764781971" />
     <state width="1398" height="174" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1609759083256" />
     <state width="1398" height="174" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1609761438985" />
     <state width="1398" height="174" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1609759285918" />
-    <state width="1398" height="174" key="GridCell.Tab.0.right" timestamp="1609761438986">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="174" key="GridCell.Tab.0.right" timestamp="1609764781972">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609692048584" />
     <state width="1398" height="175" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1609698730949" />
-    <state width="1398" height="174" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1609758046249" />
+    <state width="1398" height="174" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1609764781972" />
     <state width="1398" height="174" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1609759083258" />
     <state width="1398" height="174" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1609761438986" />
     <state width="1398" height="174" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1609759285919" />
@@ -409,24 +401,5 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="435" y="158" width="672" height="678" key="search.everywhere.popup/0.23.1440.814@0.23.1440.814" timestamp="1609065411331" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs</url>
-          <line>77</line>
-          <properties documentPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Login.cshtml.cs" initialLine="77">
-            <startOffsets>
-              <option value="2517" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2555" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
