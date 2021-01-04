@@ -134,7 +134,6 @@
       <e p="Models" t="Include">
         <e p="ApplicationUser.cs" t="Include" />
         <e p="Appointment.cs" t="Include" />
-        <e p="Doctor.cs" t="Include" />
         <e p="ErrorViewModel.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
@@ -164,9 +163,7 @@
           <e p="ViewAppointmentsPatient.cshtml" t="Include" />
         </e>
         <e p="Home" t="Include">
-          <e p="AutentificationDoctors.cshtml" t="Include" />
           <e p="Index.cshtml" t="Include" />
-          <e p="Privacy.cshtml" t="Include" />
           <e p="Team.cshtml" t="Include" />
         </e>
         <e p="Shared" t="Include">

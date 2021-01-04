@@ -39,9 +39,10 @@ namespace project_hospital_admin
             //  services.AddRazorPages();
              
              services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
-                  .AddDefaultUI() 
-                  .AddDefaultTokenProviders()
-                 .AddEntityFrameworkStores<ApplicationDbContext>();
+                 .AddRoleManager<RoleManager<IdentityRole>>()
+                 .AddDefaultUI() 
+                 .AddDefaultTokenProviders()
+                  .AddEntityFrameworkStores<ApplicationDbContext>();
              
         }
 
@@ -115,6 +116,7 @@ namespace project_hospital_admin
                 newUser.FirstName = "Corina";
                 newUser.LastName = "Condurachi";
                 newUser.PhoneNumber = "0756055943";
+                newUser.Role = "Admin";
                 
 
                 Task<IdentityResult> task = userManager.CreateAsync(newUser, "Parola99!");
@@ -129,8 +131,7 @@ namespace project_hospital_admin
             }
 
         }
-
-        
+  
     }
 }
 
