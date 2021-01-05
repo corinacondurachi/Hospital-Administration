@@ -1,9 +1,10 @@
-@model Appointment
+@model Prescription
 
 
 @{
     Layout = null;
 }
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html class="supernova"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,12 +18,12 @@
 <link rel="canonical" href="https://form.jotform.com/203621818570353" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
 <meta name="HandheldFriendly" content="true" />
-<title>Editeaza o programare</title>
+<title>Prescrie o reteta</title>
 <link href="https://cdn.jotfor.ms/static/formCss.css?3.3.22489" rel="stylesheet" type="text/css" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.22489" />
 <link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.22489" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.22489" />
-<style type="text/css">
+<style type="text/css" style="background-image: url('https://einsteinperspectives.com/wp-content/uploads/2020/01/Doctor-prescribing-heart-medicine.jpg');">
 
 
     .form-label-left{
@@ -126,7 +127,8 @@
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
   }
 }
-
+/* | */
+/* | */
 @@media screen and (max-width: 480px) {
   .jotform-form {
     padding: 10px 0;
@@ -240,11 +242,11 @@
 }
 .supernova {
   background-image: none;
-  background-image: url("https://www.jotform.com/uploads/formgallery/form_files/StockSnap_9M1HWW2JFV.jpg");
+  background-image: url('https://einsteinperspectives.com/wp-content/uploads/2020/01/Doctor-prescribing-heart-medicine.jpg');
 }
 #stage {
   background-image: none;
-  background-image: url("https://www.jotform.com/uploads/formgallery/form_files/StockSnap_9M1HWW2JFV.jpg");
+  background-image: url('https://einsteinperspectives.com/wp-content/uploads/2020/01/Doctor-prescribing-heart-medicine.jpg');
 }
 /* | */
 .form-all {
@@ -319,7 +321,11 @@ h2 ~ .form-subHeader {
 .form-header-group {
   text-align: left;
 }
-
+/*.form-dropdown,
+.form-radio-item,
+.form-checkbox-item,
+.form-radio-other-input,
+.form-checkbox-other-input,*/
 .form-captcha input,
 .form-spinner input,
 .form-error-message {
@@ -795,10 +801,10 @@ li[data-type="control_image"] img {
         background-position: center top;
       }
       .supernova {
-        background-image: url("https://www.jotform.com/uploads/batuhan/form_files/final_20864245705555.5b18e0a95657b9.83368454.jpg");
+        background-image: url('https://einsteinperspectives.com/wp-content/uploads/2020/01/Doctor-prescribing-heart-medicine.jpg');
       }
       #stage {
-        background-image: url("https://www.jotform.com/uploads/batuhan/form_files/final_20864245705555.5b18e0a95657b9.83368454.jpg");
+       background-image: url('https://einsteinperspectives.com/wp-content/uploads/2020/01/Doctor-prescribing-heart-medicine.jpg');
       }
     
     .form-all {
@@ -811,6 +817,12 @@ li[data-type="control_image"] img {
     margin-top: initial;
   }
   
+  /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
+/*---------------------
+Theme: Generic Theme
+Author: Elton Cris - idarktech@jotform.com
+www.jotform.com
+----------------------*/
 .form-all {
     -moz-box-sizing : border-box;
     -webkit-box-sizing : border-box;
@@ -1626,6 +1638,14 @@ if (window.JotForm && JotForm.accessible) $('input_21').setAttribute('tabindex',
 
 	    return '-' + str;
 	  };
+
+	  // const toJSDate = (dateStr, timezone) => {
+	  //   if (!dateStr) return;
+
+	  //   const gmtSuffix = getGMTSuffix(timezone || state.timezone);
+
+	  //   return new Date(`${dateStr} GMT${gmtSuffix}`);
+	  // };
 
 	  var getYearMonth = function getYearMonth(date) {
 	    if (!date) return;
@@ -2456,8 +2476,8 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
 </script>
 </head>
 <body>
- <form asp-action="EditAppointment" >
-   <div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="CreatePrescription" >
+<div asp-validation-summary="All" class="text-danger"></div>
   <input type="hidden" name="formID" value="203621818570353" />
   <input type="hidden" id="JWTContainer" value="" />
   <input type="hidden" id="cardinalOrderNumber" value="" />
@@ -2467,55 +2487,58 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
         <div class="form-header-group  header-default">
           <div class="header-text httal htvam">
             <h2 id="header_19" class="form-header" data-component="header">
-              Detalii personale pacient
+              Prescrie o reteta
             </h2>
             <div id="subHeader_19" class="form-subHeader">
-              Completati toate campurile pentru a seta o programare la noi.
+              Completati toate campurile pentru a prescrie o reteta.
             </div>
           </div>
         </div>
       </li>
-    <li class="form-line jf-required" data-type="control_textbox" id="id_4">
-
-	    <label asp-for="Name" class="form-label form-label-left form-label-auto">
-		    Nume complet
-		    <span class="form-required">
-			    *
-		    </span>
-	    </label>
-	    <div id="cid_4" class="form-input jf-required">
-		    <input asp-for="Name"   class="form-textbox validate[required]"  />
-	    </div>
-    </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_4">
+        <label asp-for="Name" class="form-label form-label-left form-label-auto" >
+          Nume complet
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_4" class="form-input jf-required">
+          <input asp-for="Name" class="form-textbox validate[required]" size="30"  placeholder=" " data-component="textbox" aria-labelledby="label_4" required="" />
+        </div>
+      </li>
       <li class="form-line jf-required" data-type="control_dropdown" id="id_22">
-        <label asp-for="Sex" class="form-label form-label-left form-label-auto">
+        <label asp-for="Sex" class="form-label form-label-left form-label-auto" >
           Sex
           <span class="form-required">
             *
           </span>
         </label>
         <div id="cid_22" class="form-input jf-required">
-          <select asp-for="Sex" class="form-dropdown validate[required]">
+          <select class="form-dropdown validate[required]"  asp-for="Sex" style="width:150px" data-component="dropdown" required="" aria-labelledby="label_22">
             <option value="">  </option>
-            <option value="Male"> Masculin </option>
-            <option value="Female"> Feminin </option>
-            <option value="Nu doresc sa dezvalui"> Nu doresc sa dezvalui </option>
+            <option value="Masculin"> Masculin </option>
+            <option value="Feminin"> Feminin </option>
+            <option value="Not willing to Disclose"> Nu doresc sa dezvalui </option>
           </select>
         </div>
       </li>
       <li class="form-line" data-type="control_phone" id="id_23">
-        <label class="form-label form-label-left form-label-auto" id="label_23" for="input_23_area"> Numar de telefon </label>
+        <label class="form-label form-label-left form-label-auto" id="label_23" for="input_23_area"> Numar de telefon 
+          <span class="form-required">
+            *
+          </span>
+        </label>
         <div id="cid_23" class="form-input">
           <div data-wrapper-react="true">
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode">
-              <input asp-for="CountryCode" type="tel" id="input_23_area"  class="form-textbox" value="" data-component="areaCode" aria-labelledby="label_23 sublabel_23_area" />
+              <input asp-for="CountryCode" type="tel" id="input_23_area"  class="form-textbox"  data-component="areaCode" aria-labelledby="label_23 sublabel_23_area" />
               <span class="phone-separate" aria-hidden="true">
                  -
               </span>
               <label class="form-sub-label" for="input_23_area" id="sublabel_23_area" style="min-height:13px" aria-hidden="false"> Codul tarii </label>
             </span>
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone">
-              <input asp-for="PhoneNumber" type="tel" id="input_23_phone"  class="form-textbox" value="" data-component="phone" aria-labelledby="label_23 sublabel_23_phone" />
+              <input asp-for="PhoneNumber"  id="input_23_phone"  class="form-textbox" data-component="phone" aria-labelledby="label_23 sublabel_23_phone" />
               <label class="form-sub-label" for="input_23_phone" id="sublabel_23_phone" style="min-height:13px" aria-hidden="false"> Numar de telefon </label>
             </span>
           </div>
@@ -2531,7 +2554,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
         <div id="cid_9" class="form-input jf-required">
           <div data-wrapper-react="true">
             <span class="form-sub-label-container" style="vertical-align:top">
-              <select asp-for="Day"  id="input_9_day" class="form-dropdown validate[required]" data-component="birthdate-day" aria-labelledby="label_9 sublabel_9_day">
+              <select asp-for="Day"   id="input_9_day" class="form-dropdown validate[required]" data-component="birthdate-day" aria-labelledby="label_9 sublabel_9_day">
                 <option>  </option>
                 <option value="1"> 1 </option>
                 <option value="2"> 2 </option>
@@ -2568,7 +2591,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
               <label class="form-sub-label" for="input_9_day" id="sublabel_9_day" style="min-height:13px" aria-hidden="false"> Ziua </label>
             </span>
             <span class="form-sub-label-container" style="vertical-align:top">
-              <select asp-for="Month" id="input_9_month" class="form-dropdown validate[required]" data-component="birthdate-month" aria-labelledby="label_9 sublabel_9_month">
+              <select asp-for="Month"   id="input_9_month" class="form-dropdown validate[required]" data-component="birthdate-month" aria-labelledby="label_9 sublabel_9_month">
                 <option>  </option>
                 <option value="January"> Ianuarie </option>
                 <option value="February"> Februarie </option>
@@ -2586,7 +2609,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
               <label class="form-sub-label" for="input_9_month" id="sublabel_9_month" style="min-height:13px" aria-hidden="false"> Luna </label>
             </span>
             <span class="form-sub-label-container" style="vertical-align:top">
-              <select asp-for="Year"  id="input_9_year" class="form-dropdown validate[required]" data-component="birthdate-year" aria-labelledby="label_9 sublabel_9_year">
+              <select  asp-for="Year"  id="input_9_year" class="form-dropdown validate[required]" data-component="birthdate-year" aria-labelledby="label_9 sublabel_9_year">
                 <option>  </option>
                 <option value="2020"> 2020 </option>
                 <option value="2019"> 2019 </option>
@@ -2695,310 +2718,9 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
           </div>
         </div>
       </li>
-      <li class="form-line jf-required" data-type="control_address" id="id_20">
-        <label class="form-label form-label-left form-label-auto" id="label_20" for="input_20undefined">
-          Adresa
-          <span class="form-required">
-            *
-          </span>
-        </label>
-        <div id="cid_20" class="form-input jf-required">
-          <div summary="" class="form-address-table jsTest-addressField">
-            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
-              <span class="form-address-line form-address-street-line jsTest-address-lineField">
-                <span class="form-sub-label-container" style="vertical-align:top">
-                  <input asp-for="Street"  id="input_20_addr_line1"  class="form-textbox validate[required] form-address-line"  data-component="address_line_1" aria-labelledby="label_20 sublabel_20_addr_line1" />
-                  <label class="form-sub-label" for="input_20_addr_line1" id="sublabel_20_addr_line1" style="min-height:13px" aria-hidden="false"> Numele si Numarul Strazii </label>
-                </span>
-              </span>
-            </div>
-             <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
-              <span class="form-address-line form-address-street-line jsTest-address-lineField">
-              </span>
-            </div> 
-            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
-              <span class="form-address-line form-address-city-line jsTest-address-lineField ">
-                <span class="form-sub-label-container" style="vertical-align:top">
-                  <input asp-for="City"  id="input_20_city"  class="form-textbox validate[required] form-address-city" value="" data-component="city" aria-labelledby="label_20 sublabel_20_city" />
-                  <label class="form-sub-label" for="input_20_city" id="sublabel_20_city" style="min-height:13px" aria-hidden="false"> Oras </label>
-                </span>
-              </span>
-              <span class="form-address-line form-address-state-line jsTest-address-lineField ">
-                <span class="form-sub-label-container" style="vertical-align:top">
-                  <input asp-for="State"  id="input_20_state"  class="form-textbox validate[required] form-address-state" value="" data-component="state" aria-labelledby="label_20 sublabel_20_state" />
-                  <label class="form-sub-label" for="input_20_state" id="sublabel_20_state" style="min-height:13px" aria-hidden="false"> Judet/Stat </label>
-                </span>
-              </span>
-            </div>
-            <div class="form-address-line-wrapper jsTest-address-line-wrapperField">
-              <span class="form-address-line form-address-zip-line jsTest-address-lineField ">
-                <span class="form-sub-label-container" style="vertical-align:top">
-                  <input type="text" id="input_20_postal" name="q20_address[postal]" class="form-textbox form-address-postal" value="" data-component="zip" aria-labelledby="label_20 sublabel_20_postal" />
-                  <label class="form-sub-label" for="input_20_postal" id="sublabel_20_postal" style="min-height:13px" aria-hidden="false"> Cod Postal </label>
-                </span>
-              </span>
-              <span class="form-address-line form-address-country-line jsTest-address-lineField ">
-                <span class="form-sub-label-container" style="vertical-align:top">
-                  <select asp-for="Country" sclass="form-dropdown validate[required] form-address-country noTranslate"  id="input_20_country" data-component="country" required="" aria-labelledby="label_20 sublabel_20_country">
-                    <option value=""> Alegeti </option>
-                    <option value="United States"> United States </option>
-                    <option value="Afghanistan"> Afghanistan </option>
-                    <option value="Albania"> Albania </option>
-                    <option value="Algeria"> Algeria </option>
-                    <option value="American Samoa"> American Samoa </option>
-                    <option value="Andorra"> Andorra </option>
-                    <option value="Angola"> Angola </option>
-                    <option value="Anguilla"> Anguilla </option>
-                    <option value="Antigua and Barbuda"> Antigua and Barbuda </option>
-                    <option value="Argentina"> Argentina </option>
-                    <option value="Armenia"> Armenia </option>
-                    <option value="Aruba"> Aruba </option>
-                    <option value="Australia"> Australia </option>
-                    <option value="Austria"> Austria </option>
-                    <option value="Azerbaijan"> Azerbaijan </option>
-                    <option value="The Bahamas"> The Bahamas </option>
-                    <option value="Bahrain"> Bahrain </option>
-                    <option value="Bangladesh"> Bangladesh </option>
-                    <option value="Barbados"> Barbados </option>
-                    <option value="Belarus"> Belarus </option>
-                    <option value="Belgium"> Belgium </option>
-                    <option value="Belize"> Belize </option>
-                    <option value="Benin"> Benin </option>
-                    <option value="Bermuda"> Bermuda </option>
-                    <option value="Bhutan"> Bhutan </option>
-                    <option value="Bolivia"> Bolivia </option>
-                    <option value="Bosnia and Herzegovina"> Bosnia and Herzegovina </option>
-                    <option value="Botswana"> Botswana </option>
-                    <option value="Brazil"> Brazil </option>
-                    <option value="Brunei"> Brunei </option>
-                    <option value="Bulgaria"> Bulgaria </option>
-                    <option value="Burkina Faso"> Burkina Faso </option>
-                    <option value="Burundi"> Burundi </option>
-                    <option value="Cambodia"> Cambodia </option>
-                    <option value="Cameroon"> Cameroon </option>
-                    <option value="Canada"> Canada </option>
-                    <option value="Cape Verde"> Cape Verde </option>
-                    <option value="Cayman Islands"> Cayman Islands </option>
-                    <option value="Central African Republic"> Central African Republic </option>
-                    <option value="Chad"> Chad </option>
-                    <option value="Chile"> Chile </option>
-                    <option value="China"> China </option>
-                    <option value="Christmas Island"> Christmas Island </option>
-                    <option value="Cocos (Keeling) Islands"> Cocos (Keeling) Islands </option>
-                    <option value="Colombia"> Colombia </option>
-                    <option value="Comoros"> Comoros </option>
-                    <option value="Congo"> Congo </option>
-                    <option value="Cook Islands"> Cook Islands </option>
-                    <option value="Costa Rica"> Costa Rica </option>
-                    <option value="Cote d&#x27;Ivoire"> Cote d&#x27;Ivoire </option>
-                    <option value="Croatia"> Croatia </option>
-                    <option value="Cuba"> Cuba </option>
-                    <option value="Curacao"> Curacao </option>
-                    <option value="Cyprus"> Cyprus </option>
-                    <option value="Czech Republic"> Czech Republic </option>
-                    <option value="Democratic Republic of the Congo"> Democratic Republic of the Congo </option>
-                    <option value="Denmark"> Denmark </option>
-                    <option value="Djibouti"> Djibouti </option>
-                    <option value="Dominica"> Dominica </option>
-                    <option value="Dominican Republic"> Dominican Republic </option>
-                    <option value="Ecuador"> Ecuador </option>
-                    <option value="Egypt"> Egypt </option>
-                    <option value="El Salvador"> El Salvador </option>
-                    <option value="Equatorial Guinea"> Equatorial Guinea </option>
-                    <option value="Eritrea"> Eritrea </option>
-                    <option value="Estonia"> Estonia </option>
-                    <option value="Ethiopia"> Ethiopia </option>
-                    <option value="Falkland Islands"> Falkland Islands </option>
-                    <option value="Faroe Islands"> Faroe Islands </option>
-                    <option value="Fiji"> Fiji </option>
-                    <option value="Finland"> Finland </option>
-                    <option value="France"> France </option>
-                    <option value="French Polynesia"> French Polynesia </option>
-                    <option value="Gabon"> Gabon </option>
-                    <option value="The Gambia"> The Gambia </option>
-                    <option value="Georgia"> Georgia </option>
-                    <option value="Germany"> Germany </option>
-                    <option value="Ghana"> Ghana </option>
-                    <option value="Gibraltar"> Gibraltar </option>
-                    <option value="Greece"> Greece </option>
-                    <option value="Greenland"> Greenland </option>
-                    <option value="Grenada"> Grenada </option>
-                    <option value="Guadeloupe"> Guadeloupe </option>
-                    <option value="Guam"> Guam </option>
-                    <option value="Guatemala"> Guatemala </option>
-                    <option value="Guernsey"> Guernsey </option>
-                    <option value="Guinea"> Guinea </option>
-                    <option value="Guinea-Bissau"> Guinea-Bissau </option>
-                    <option value="Guyana"> Guyana </option>
-                    <option value="Haiti"> Haiti </option>
-                    <option value="Honduras"> Honduras </option>
-                    <option value="Hong Kong"> Hong Kong </option>
-                    <option value="Hungary"> Hungary </option>
-                    <option value="Iceland"> Iceland </option>
-                    <option value="India"> India </option>
-                    <option value="Indonesia"> Indonesia </option>
-                    <option value="Iran"> Iran </option>
-                    <option value="Iraq"> Iraq </option>
-                    <option value="Ireland"> Ireland </option>
-                    <option value="Israel"> Israel </option>
-                    <option value="Italy"> Italy </option>
-                    <option value="Jamaica"> Jamaica </option>
-                    <option value="Japan"> Japan </option>
-                    <option value="Jersey"> Jersey </option>
-                    <option value="Jordan"> Jordan </option>
-                    <option value="Kazakhstan"> Kazakhstan </option>
-                    <option value="Kenya"> Kenya </option>
-                    <option value="Kiribati"> Kiribati </option>
-                    <option value="North Korea"> North Korea </option>
-                    <option value="South Korea"> South Korea </option>
-                    <option value="Kosovo"> Kosovo </option>
-                    <option value="Kuwait"> Kuwait </option>
-                    <option value="Kyrgyzstan"> Kyrgyzstan </option>
-                    <option value="Laos"> Laos </option>
-                    <option value="Latvia"> Latvia </option>
-                    <option value="Lebanon"> Lebanon </option>
-                    <option value="Lesotho"> Lesotho </option>
-                    <option value="Liberia"> Liberia </option>
-                    <option value="Libya"> Libya </option>
-                    <option value="Liechtenstein"> Liechtenstein </option>
-                    <option value="Lithuania"> Lithuania </option>
-                    <option value="Luxembourg"> Luxembourg </option>
-                    <option value="Macau"> Macau </option>
-                    <option value="Macedonia"> Macedonia </option>
-                    <option value="Madagascar"> Madagascar </option>
-                    <option value="Malawi"> Malawi </option>
-                    <option value="Malaysia"> Malaysia </option>
-                    <option value="Maldives"> Maldives </option>
-                    <option value="Mali"> Mali </option>
-                    <option value="Malta"> Malta </option>
-                    <option value="Marshall Islands"> Marshall Islands </option>
-                    <option value="Martinique"> Martinique </option>
-                    <option value="Mauritania"> Mauritania </option>
-                    <option value="Mauritius"> Mauritius </option>
-                    <option value="Mayotte"> Mayotte </option>
-                    <option value="Mexico"> Mexico </option>
-                    <option value="Micronesia"> Micronesia </option>
-                    <option value="Moldova"> Moldova </option>
-                    <option value="Monaco"> Monaco </option>
-                    <option value="Mongolia"> Mongolia </option>
-                    <option value="Montenegro"> Montenegro </option>
-                    <option value="Montserrat"> Montserrat </option>
-                    <option value="Morocco"> Morocco </option>
-                    <option value="Mozambique"> Mozambique </option>
-                    <option value="Myanmar"> Myanmar </option>
-                    <option value="Nagorno-Karabakh"> Nagorno-Karabakh </option>
-                    <option value="Namibia"> Namibia </option>
-                    <option value="Nauru"> Nauru </option>
-                    <option value="Nepal"> Nepal </option>
-                    <option value="Netherlands"> Netherlands </option>
-                    <option value="Netherlands Antilles"> Netherlands Antilles </option>
-                    <option value="New Caledonia"> New Caledonia </option>
-                    <option value="New Zealand"> New Zealand </option>
-                    <option value="Nicaragua"> Nicaragua </option>
-                    <option value="Niger"> Niger </option>
-                    <option value="Nigeria"> Nigeria </option>
-                    <option value="Niue"> Niue </option>
-                    <option value="Norfolk Island"> Norfolk Island </option>
-                    <option value="Turkish Republic of Northern Cyprus"> Turkish Republic of Northern Cyprus </option>
-                    <option value="Northern Mariana"> Northern Mariana </option>
-                    <option value="Norway"> Norway </option>
-                    <option value="Oman"> Oman </option>
-                    <option value="Pakistan"> Pakistan </option>
-                    <option value="Palau"> Palau </option>
-                    <option value="Palestine"> Palestine </option>
-                    <option value="Panama"> Panama </option>
-                    <option value="Papua New Guinea"> Papua New Guinea </option>
-                    <option value="Paraguay"> Paraguay </option>
-                    <option value="Peru"> Peru </option>
-                    <option value="Philippines"> Philippines </option>
-                    <option value="Pitcairn Islands"> Pitcairn Islands </option>
-                    <option value="Poland"> Poland </option>
-                    <option value="Portugal"> Portugal </option>
-                    <option value="Puerto Rico"> Puerto Rico </option>
-                    <option value="Qatar"> Qatar </option>
-                    <option value="Republic of the Congo"> Republic of the Congo </option>
-                    <option value="Romania"> Romania </option>
-                    <option value="Russia"> Russia </option>
-                    <option value="Rwanda"> Rwanda </option>
-                    <option value="Saint Barthelemy"> Saint Barthelemy </option>
-                    <option value="Saint Helena"> Saint Helena </option>
-                    <option value="Saint Kitts and Nevis"> Saint Kitts and Nevis </option>
-                    <option value="Saint Lucia"> Saint Lucia </option>
-                    <option value="Saint Martin"> Saint Martin </option>
-                    <option value="Saint Pierre and Miquelon"> Saint Pierre and Miquelon </option>
-                    <option value="Saint Vincent and the Grenadines"> Saint Vincent and the Grenadines </option>
-                    <option value="Samoa"> Samoa </option>
-                    <option value="San Marino"> San Marino </option>
-                    <option value="Sao Tome and Principe"> Sao Tome and Principe </option>
-                    <option value="Saudi Arabia"> Saudi Arabia </option>
-                    <option value="Senegal"> Senegal </option>
-                    <option value="Serbia"> Serbia </option>
-                    <option value="Seychelles"> Seychelles </option>
-                    <option value="Sierra Leone"> Sierra Leone </option>
-                    <option value="Singapore"> Singapore </option>
-                    <option value="Slovakia"> Slovakia </option>
-                    <option value="Slovenia"> Slovenia </option>
-                    <option value="Solomon Islands"> Solomon Islands </option>
-                    <option value="Somalia"> Somalia </option>
-                    <option value="Somaliland"> Somaliland </option>
-                    <option value="South Africa"> South Africa </option>
-                    <option value="South Ossetia"> South Ossetia </option>
-                    <option value="South Sudan"> South Sudan </option>
-                    <option value="Spain"> Spain </option>
-                    <option value="Sri Lanka"> Sri Lanka </option>
-                    <option value="Sudan"> Sudan </option>
-                    <option value="Suriname"> Suriname </option>
-                    <option value="Svalbard"> Svalbard </option>
-                    <option value="eSwatini"> eSwatini </option>
-                    <option value="Sweden"> Sweden </option>
-                    <option value="Switzerland"> Switzerland </option>
-                    <option value="Syria"> Syria </option>
-                    <option value="Taiwan"> Taiwan </option>
-                    <option value="Tajikistan"> Tajikistan </option>
-                    <option value="Tanzania"> Tanzania </option>
-                    <option value="Thailand"> Thailand </option>
-                    <option value="Timor-Leste"> Timor-Leste </option>
-                    <option value="Togo"> Togo </option>
-                    <option value="Tokelau"> Tokelau </option>
-                    <option value="Tonga"> Tonga </option>
-                    <option value="Transnistria Pridnestrovie"> Transnistria Pridnestrovie </option>
-                    <option value="Trinidad and Tobago"> Trinidad and Tobago </option>
-                    <option value="Tristan da Cunha"> Tristan da Cunha </option>
-                    <option value="Tunisia"> Tunisia </option>
-                    <option value="Turkey"> Turkey </option>
-                    <option value="Turkmenistan"> Turkmenistan </option>
-                    <option value="Turks and Caicos Islands"> Turks and Caicos Islands </option>
-                    <option value="Tuvalu"> Tuvalu </option>
-                    <option value="Uganda"> Uganda </option>
-                    <option value="Ukraine"> Ukraine </option>
-                    <option value="United Arab Emirates"> United Arab Emirates </option>
-                    <option value="United Kingdom"> United Kingdom </option>
-                    <option value="Uruguay"> Uruguay </option>
-                    <option value="Uzbekistan"> Uzbekistan </option>
-                    <option value="Vanuatu"> Vanuatu </option>
-                    <option value="Vatican City"> Vatican City </option>
-                    <option value="Venezuela"> Venezuela </option>
-                    <option value="Vietnam"> Vietnam </option>
-                    <option value="British Virgin Islands"> British Virgin Islands </option>
-                    <option value="Isle of Man"> Isle of Man </option>
-                    <option value="US Virgin Islands"> US Virgin Islands </option>
-                    <option value="Wallis and Futuna"> Wallis and Futuna </option>
-                    <option value="Western Sahara"> Western Sahara </option>
-                    <option value="Yemen"> Yemen </option>
-                    <option value="Zambia"> Zambia </option>
-                    <option value="Zimbabwe"> Zimbabwe </option>
-                    <option value="other"> Other </option>
-                  </select>
-                  <label class="form-sub-label" for="input_20_country" id="sublabel_20_country" style="min-height:13px" aria-hidden="false"> Tara </label>
-                </span>
-              </span>
-            </div>
-          </div>
-        </div>
-      </li>
         <li class="form-line jf-required" data-type="control_dropdown" id="id_22">
-        <label  class="form-label form-label-left form-label-auto">
-          Numele medicului la care doriti sa va programati
+        <label class="form-label form-label-left form-label-auto" id="label_22" for="input_22">
+          Numele medicului care v-a prescris reteta
           <span class="form-required">
             *
           </span>
@@ -3006,75 +2728,59 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
         <div id="cid_22" class="form-input jf-required">
           <select asp-for="Doctor"  class="form-dropdown validate[required]" id="input_22"  style="width:150px" data-component="dropdown" required="" aria-labelledby="label_22">
             <option value="">  </option>
-            <option value="DR. MEREDITH GREY"> DR. MEREDITH GREY - Chirurgie Generală</option>
-            <option value="DR. DEREK SHEPHERD"> DR. DEREK SHEPHERD - Neurochirurgie</option>
-            <option value="DR. MARK SLOAN"> DR. MARK SLOAN - Chirurgie Plastică</option>
-            <option value="DR. CRISTINA YANG"> DR. CRISTINA YANG - Chirurgie Cardiovasculară</option>
-            <option value="DR. ALEX KAREV"> DR. ALEX KAREV - Pediatrie</option>
-            <option value="DR. IZZIE STEVENS"> DR. IZZIE STEVENS - Oncologie</option>
-            <option value="DR. ADDISON MONTGOMERY"> DR. ADDISON MONTGOMERY - Obstretică si Ginecologie
-	</option>
-            <option value="DR. JACKSON AVERY"> DR. JACKSON AVERY - Oftalmologie</option>
-            <option value="DR. LEXIE GREY"> DR. LEXIE GREY - ORL</option>
-            <option value="DR. AMELIA SHEPHERD"> DR. AMELIA SHEPHERD - Dermatologie</option>
-            <option value="DR. CALLIE TORRES"> DR. CALLIE TORRES - Ortopedie</option>
-            <option value="DR. MIRANDA BAILEY"> DR. MIRANDA BAILEY - Radiologie</option>
+            <option value="Male"> DR. MEREDITH GREY - Chirurgie Generală</option>
+            <option value="Male"> DR. DEREK SHEPHERD - Neurochirurgie</option>
+            <option value="Male"> DR. MARK SLOAN - Chirurgie Plastică</option>
+            <option value="Male"> DR. CRISTINA YANG - Chirurgie Cardiovasculară</option>
+            <option value="Male"> DR. ALEX KAREV - Pediatrie</option>
+            <option value="Male"> DR. IZZIE STEVENS - Oncologie</option>
+            <option value="Male"> DR. ADDISON MONTGOMERY - Obstretică si Ginecologie
+</option>
+            <option value="Male"> DR. JACKSON AVERY - Oftalmologie</option>
+            <option value="Male"> DR. LEXIE GREY - ORL</option>
+            <option value="Male"> DR. AMELIA SHEPHERD - Dermatologie</option>
+            <option value="Male"> DR. CALLIE TORRES - Ortopedie</option>
+            <option value="Male"> DR. MIRANDA BAILEY - Radiologie</option>
           </select>
         </div>
       </li>
       <li class="form-line" data-type="control_email" id="id_24">
-        <label asp-for="EmailAddress" class="form-label form-label-left form-label-auto"> Adresa de email </label>
-        <div id="cid_24" class="form-input">
-          <input asp-for="EmailAddress"  class="form-textbox validate[Email]" size="30" id="input_24"  placeholder="ex: myname@example.com" data-component="email" aria-labelledby="label_24" />
-        </div>
-      </li>
-      <li class="form-line jf-required" data-type="control_radio" id="id_10">
-        <label asp-for="PreviouslyVisited" class="form-label form-label-top">
-          Ati mai fost vreodata la noi?
-          <span class="form-required">
+        <label class="form-label form-label-left form-label-auto" id="label_24" for="input_24"> Adresa de email a pacientului 
+        <span class="form-required">
             *
           </span>
         </label>
-        <div id="cid_10" class="form-input-wide jf-required">
-          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_10" data-component="radio">
-            <span class="form-radio-item">
-              <span class="dragger-item">
-              </span>
-              <input asp-for="PreviouslyVisited" type="radio" class="form-radio validate[required]" id="input_10_0"  value="Da" required="" checked="checked"/>
-              <label id="label_input_10_0" for="input_10_0"> Da </label>
-            </span>
-            <span class="form-radio-item">
-              <span class="dragger-item">
-              </span>
-              <input asp-for="PreviouslyVisited" type="radio" class="form-radio validate[required]" id="input_10_1"  value="Nu" required="" />
-              <label id="label_input_10_1" for="input_10_1"> Nu </label>
-            </span>
-          </div>
+        <div id="cid_24" class="form-input">
+          <input asp-for="EmailAddress"  id="input_24"  class="form-textbox validate[Email]" size="30"  placeholder="ex: myname@example.com" data-component="email" aria-labelledby="label_24" />
         </div>
       </li>
+    <li class="form-line" data-type="control_textarea" id="id_21">
+	    <label class="form-label form-label-top" id="label_21" for="input_21"> Diagnostic
+		    <span class="form-required">
+			    *
+		    </span>
+	    </label>
+	    <div id="cid_21" class="form-input-wide">
+		    <textarea asp-for="Diagnose" id="input_21" class="form-textarea"  cols="40" rows="3" data-component="textarea" aria-labelledby="label_21"></textarea>
+	    </div>
+    </li>
+    
       <li class="form-line" data-type="control_textarea" id="id_21">
-        <label class="form-label form-label-top" id="label_21" for="input_21"> Daca da, va rugam sa ne spuneti in ce conditii si cand </label>
+	      <label class="form-label form-label-top" id="label_21" for="input_21"> Medicamente prescrise si doza acestora
+		      <span class="form-required">
+			      *
+		      </span>
+		      </label>
         <div id="cid_21" class="form-input-wide">
-          <textarea asp-for="VisitMotive" id="input_21" class="form-textarea" cols="40" rows="6" data-component="textarea" aria-labelledby="label_21"></textarea>
+          <textarea asp-for="Medication" id="input_21" class="form-textarea"  cols="40" rows="20" data-component="textarea" aria-labelledby="label_21"></textarea>
         </div>
       </li>
-      <li class="form-line" data-type="control_appointment" id="id_25">
-        <label class="form-label form-label-top" id="label_25" for="input_25"> Programare </label>
-        <div id="cid_25" class="form-input-wide">
-          <div id="input_25" class="appointmentFieldWrapper jfQuestion-fields">
-            <input asp-for="AppointmentDate" class="appointmentFieldInput "  id="input_25_date" />
-            <input   class="appointmentFieldInput"   id="input_25_duration" />
-            <input  class="appointmentFieldInput"   id="input_25_timezone" />
-            <div class="appointmentField">
-            </div>
-          </div>
-        </div>
-      </li>
+      
       <li class="form-line" data-type="control_button" id="id_2">
         <div id="cid_2" class="form-input-wide">
           <div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
-            <button  type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField"  >
-              Programeaza-te
+            <button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              Emite Reteta
             </button>
           </div>
         </div>
@@ -3085,7 +2791,6 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
       </li>
     </ul>
   </div>
-  
   <script>
   JotForm.showJotFormPowered = "new_footer";
   </script>

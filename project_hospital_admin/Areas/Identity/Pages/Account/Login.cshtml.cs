@@ -87,14 +87,17 @@ namespace project_hospital_admin.Areas.Identity.Pages.Account
                     _logger.LogInformation("User logged in.");
                     var user = await _userManager.FindByEmailAsync(Input.Email);
                      // daca e Admin, va vedea toate programarile facute, daca nu doar cele setate de el
-                    bool isAdmin = user.Role == "Admin";
-                    if (!isAdmin)
+                    if (user.Role == "Pacient")
                     {
                         returnUrl ??= Url.Content("/Appointments/ViewAppointmentsPatient");
                     }
-                    else
+                    else if (user.Role == "Admin")
                     {
                         returnUrl ??= Url.Content("/Appointments/ViewAppointments");
+                    }
+                    else
+                    {
+                        returnUrl ??= Url.Content("/Appointments/ViewAppointmentsDoctor");
                     }
                     return LocalRedirect(returnUrl);
                 }

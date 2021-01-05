@@ -50,7 +50,7 @@
                         <p>Cunoaste echipa</p>
                       </a>
             </li>
-          <li class="nav-item active ">
+          <li class="nav-item ">
             <a class="nav-link" href="/Appointments/ViewAppointments">
               <i class="material-icons">content_paste</i>
               <p>Programari setate</p>
@@ -68,12 +68,12 @@
               <p>Adauga un medic</p>
             </a>
           </li>
-          <li class="nav-item ">
-                      <a class="nav-link" href="/Prescriptions/ViewPrescriptions">
-                        <i class="material-icons">content_paste</i>
-                        <p>Retete prescrise</p>
-                      </a>
-                    </li>
+           <li class="nav-item active ">
+                                <a class="nav-link" href="/Prescriptions/ViewPrescriptions">
+                                  <i class="material-icons">content_paste</i>
+                                  <p>Retete prescrise</p>
+                                </a>
+                              </li>
         </ul>
       </div>
     </div>
@@ -152,14 +152,17 @@
                         <th>
                           Numele medicului
                         </th>
-                        <th>
-                          Data si ora programarii
-                        </th>
+                      <th>
+                        Diagnostic
+                      </th>
+                       <th>
+                         Medicamente Prescrise
+                         </th>
                       </thead>
                       <tbody>
                       @{
-                        var appointmentsList = ViewData["appointments"] as List<Appointment>;
-                        List<Appointment> SortedList = appointmentsList.OrderBy(o=>o.Id).ToList();
+                        var prescriptionsList = ViewData["prescriptions"] as List<Prescription>;
+                        List<Prescription> SortedList = prescriptionsList.OrderBy(o=>o.Id).ToList();
 
                         @foreach (var item in SortedList)
                         {
@@ -186,8 +189,11 @@
                               @Html.DisplayFor(modelItem => item.Doctor)
                             </td>
                             <td>
-                              @Html.DisplayFor(modelItem => item.AppointmentDate)
+                              @Html.DisplayFor(modelItem => item.Diagnose)
                             </td>
+                            <td>
+                              @Html.DisplayFor(modelItem => item.Medication)
+                              </td>
                             <td>
                               <a href="/Appointments/EditAppointment/@item.Id" class="btn btn-warning">Editare</a>
                             </td>

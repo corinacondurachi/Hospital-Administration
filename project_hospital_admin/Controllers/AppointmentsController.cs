@@ -38,8 +38,21 @@ namespace project_hospital_admin.Controllers
                 _context.Appointments.Add(appointment);
 
                 _context.SaveChanges();
+                
+                var user = _context.ApplicationUsers.FirstOrDefault(x => x.Id == appointment.UserId);
 
-                return RedirectToAction("ViewAppointments", "Appointments");
+                if (user.Role == "Admin")
+                {
+                    return RedirectToAction("ViewAppointments", "Appointments");
+                }
+                if (appointment.ApplicationUser.Role == "Doctor")
+                {
+                    return RedirectToAction("ViewAppointmentsDoctor", "Appointments");
+                }
+                if (appointment.ApplicationUser.Role == "Pacient")
+                {
+                    return RedirectToAction("ViewAppointmentsPatient", "Appointments");
+                }
             }   
 
             return View(appointment);
@@ -55,8 +68,18 @@ namespace project_hospital_admin.Controllers
             return View();
         }
         
-        // GET: /Appointments/ViewAppointments/{currentUserId}
+        // GET: /Appointments/ViewAppointmentsDoctor
         [HttpGet]
+        //[Authorize(Roles = "Doctor")]
+        public ActionResult ViewAppointmentsDoctor()
+        {
+            ViewData["appointments"] = _context.Appointments.ToList();
+            return View();
+        }
+        
+        // GET: /Appointments/ViewAppointmentsPatient
+        [HttpGet]
+        //[Authorize(Role = "Pacient")]
         public ActionResult ViewAppointmentsPatient()
         {
             ViewData["appointments"] = _context.Appointments.Where(x => x.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier)).ToList();

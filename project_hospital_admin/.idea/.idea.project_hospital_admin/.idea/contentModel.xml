@@ -95,6 +95,7 @@
       <e p="Controllers" t="Include">
         <e p="AppointmentsController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
+        <e p="PrescriptionsController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="ApplicationDbContext.cs" t="Include" />
@@ -129,12 +130,17 @@
         <e p="20210104094939_TryAgain.Designer.cs" t="Include" />
         <e p="20210104114658_AddedRole.cs" t="Include" />
         <e p="20210104114658_AddedRole.Designer.cs" t="Include" />
+        <e p="20210105102458_AdaugaReteta.cs" t="Include" />
+        <e p="20210105102458_AdaugaReteta.Designer.cs" t="Include" />
+        <e p="20210105104158_NewPrescription.cs" t="Include" />
+        <e p="20210105104158_NewPrescription.Designer.cs" t="Include" />
         <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="ApplicationUser.cs" t="Include" />
         <e p="Appointment.cs" t="Include" />
         <e p="ErrorViewModel.cs" t="Include" />
+        <e p="Prescription.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -160,11 +166,18 @@
           <e p="CreateAppointment.cshtml" t="Include" />
           <e p="EditAppointment.cshtml" t="Include" />
           <e p="ViewAppointments.cshtml" t="Include" />
+          <e p="ViewAppointmentsDoctor.cshtml" t="Include" />
           <e p="ViewAppointmentsPatient.cshtml" t="Include" />
         </e>
         <e p="Home" t="Include">
           <e p="Index.cshtml" t="Include" />
           <e p="Team.cshtml" t="Include" />
+        </e>
+        <e p="Prescriptions" t="Include">
+          <e p="CreatePrescription.cshtml" t="Include" />
+          <e p="ViewPrescriptions.cshtml" t="Include" />
+          <e p="ViewPrescriptionsDoctor.cshtml" t="Include" />
+          <e p="ViewPrescriptionsPatient.cshtml" t="Include" />
         </e>
         <e p="Shared" t="Include">
           <e p="_Layout.cshtml" t="Include" />
@@ -193,6 +206,7 @@
               <e p="json2.js" t="Include" />
             </e>
           </e>
+          <e p="reteta.jpg" t="Include" />
         </e>
         <e p="assets" t="Include">
           <e p="css" t="Include">

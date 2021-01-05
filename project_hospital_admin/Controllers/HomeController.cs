@@ -22,25 +22,9 @@ namespace project_hospital_admin.Controllers
         {
             return View();
         }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        
         
         public IActionResult Team()
-        {
-            return View();
-        }
-        
-        
-        
-        // public IActionResult CreateAppointment()
-        // {
-        //     return View();
-        // }
-        
-        public IActionResult AutentificationDoctors()
         {
             return View();
         }
