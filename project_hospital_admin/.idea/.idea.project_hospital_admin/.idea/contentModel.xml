@@ -133,6 +133,12 @@
         <e p="20210105102458_AdaugaReteta.Designer.cs" t="Include" />
         <e p="20210105104158_NewPrescription.cs" t="Include" />
         <e p="20210105104158_NewPrescription.Designer.cs" t="Include" />
+        <e p="20210106173416_newDatabase.cs" t="Include" />
+        <e p="20210106173416_newDatabase.Designer.cs" t="Include" />
+        <e p="20210106173949_newDatabase2.cs" t="Include" />
+        <e p="20210106173949_newDatabase2.Designer.cs" t="Include" />
+        <e p="20210106175705_newDatabase3.cs" t="Include" />
+        <e p="20210106175705_newDatabase3.Designer.cs" t="Include" />
         <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">

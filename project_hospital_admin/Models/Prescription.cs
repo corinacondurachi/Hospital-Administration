@@ -6,6 +6,7 @@ namespace project_hospital_admin.Models
     public class Prescription
     {
         [Key]
+        [StringLength(50)]
         public int Id { get; set; }
         
         [Required]

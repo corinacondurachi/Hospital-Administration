@@ -6,6 +6,7 @@ namespace project_hospital_admin.Models
     public class Appointment
     {
         [Key]
+        [StringLength(50)]
         public int Id { get; set; }
         
         [Required]
@@ -58,7 +59,6 @@ namespace project_hospital_admin.Models
         [Required]
         public string Doctor { get; set; }
         
-        //[Required]
         public string UserId { get; set; }
         
         [ForeignKey("UserId")]
