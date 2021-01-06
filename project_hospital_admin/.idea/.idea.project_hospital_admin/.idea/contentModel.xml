@@ -101,40 +101,8 @@
         <e p="ApplicationDbContext.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
-        <e p="20201228150834_InitialCreate.cs" t="Include" />
-        <e p="20201228150834_InitialCreate.Designer.cs" t="Include" />
-        <e p="20201229104515_ChangedTable.cs" t="Include" />
-        <e p="20201229104515_ChangedTable.Designer.cs" t="Include" />
-        <e p="20201229132119_AppTable.cs" t="Include" />
-        <e p="20201229132119_AppTable.Designer.cs" t="Include" />
-        <e p="20201230092841_FinishedAppointment.cs" t="Include" />
-        <e p="20201230092841_FinishedAppointment.Designer.cs" t="Include" />
-        <e p="20210103145457_roles.cs" t="Include" />
-        <e p="20210103145457_roles.Designer.cs" t="Include" />
-        <e p="20210104084759_AddedUser.cs" t="Include" />
-        <e p="20210104084759_AddedUser.Designer.cs" t="Include" />
-        <e p="20210104085028_AddedUserId.cs" t="Include" />
-        <e p="20210104085028_AddedUserId.Designer.cs" t="Include" />
-        <e p="20210104091743_FixUserId.cs" t="Include" />
-        <e p="20210104091743_FixUserId.Designer.cs" t="Include" />
-        <e p="20210104092020_FixedUserId.cs" t="Include" />
-        <e p="20210104092020_FixedUserId.Designer.cs" t="Include" />
-        <e p="20210104092823_AddingUserId.cs" t="Include" />
-        <e p="20210104092823_AddingUserId.Designer.cs" t="Include" />
-        <e p="20210104093231_Try.cs" t="Include" />
-        <e p="20210104093231_Try.Designer.cs" t="Include" />
-        <e p="20210104093835_Try2.cs" t="Include" />
-        <e p="20210104093835_Try2.Designer.cs" t="Include" />
-        <e p="20210104094939_TryAgain.cs" t="Include" />
-        <e p="20210104094939_TryAgain.Designer.cs" t="Include" />
-        <e p="20210104114658_AddedRole.cs" t="Include" />
-        <e p="20210104114658_AddedRole.Designer.cs" t="Include" />
-        <e p="20210105102458_AdaugaReteta.cs" t="Include" />
-        <e p="20210105102458_AdaugaReteta.Designer.cs" t="Include" />
-        <e p="20210105104158_NewPrescription.cs" t="Include" />
-        <e p="20210105104158_NewPrescription.Designer.cs" t="Include" />
-        <e p="20210106175705_newDatabase3.cs" t="Include" />
-        <e p="20210106175705_newDatabase3.Designer.cs" t="Include" />
+        <e p="20210106191041_RestoreDb.cs" t="Include" />
+        <e p="20210106191041_RestoreDb.Designer.cs" t="Include" />
         <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">

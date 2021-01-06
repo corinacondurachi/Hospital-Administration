@@ -241,7 +241,6 @@ namespace project_hospital_admin.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasMaxLength(50)
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
@@ -322,7 +321,6 @@ namespace project_hospital_admin.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasMaxLength(50)
                         .HasColumnType("int")
                         .UseIdentityColumn();
 

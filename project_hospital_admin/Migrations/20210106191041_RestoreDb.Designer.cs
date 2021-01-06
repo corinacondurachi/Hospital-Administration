@@ -10,8 +10,8 @@ using project_hospital_admin.Data;
 namespace project_hospital_admin.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210106182514_RestoreDatabase")]
-    partial class RestoreDatabase
+    [Migration("20210106191041_RestoreDb")]
+    partial class RestoreDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -243,7 +243,6 @@ namespace project_hospital_admin.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasMaxLength(50)
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
@@ -324,7 +323,6 @@ namespace project_hospital_admin.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasMaxLength(50)
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
