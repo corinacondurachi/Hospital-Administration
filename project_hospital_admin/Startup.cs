@@ -116,11 +116,11 @@ namespace project_hospital_admin
                 var newUser = new ApplicationUser();
                 newUser.Email = "corina@gmail.com";
                 newUser.UserName = "corina@gmail.com";
-                newUser.Cnp = "2990117170017";
+                newUser.Cnp = "2999999999999";
                 newUser.Sex = "F";
                 newUser.FirstName = "Corina";
-                newUser.LastName = "Condurachi";
-                newUser.PhoneNumber = "0756055943";
+                newUser.LastName = "Corina";
+                newUser.PhoneNumber = "0777777777";
                 newUser.Role = "Admin";
                 
 
