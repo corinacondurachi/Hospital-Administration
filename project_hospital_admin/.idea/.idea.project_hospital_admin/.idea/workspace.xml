@@ -23,10 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22689270-4dda-4b92-a1e8-5e02f4b0d42c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Migrations/20210106173416_newDatabase.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20210106173416_newDatabase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20210106173949_newDatabase2.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20210106173949_newDatabase2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +96,10 @@
         <option value="$PROJECT_DIR$/Controllers/PrescriptionsController.cs" />
         <option value="$PROJECT_DIR$/Views/Appointments/CreateAppointment.cshtml" />
         <option value="$PROJECT_DIR$/wwwroot/Appointment/js/calendarview.js" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Models/Prescription.cs" />
         <option value="$PROJECT_DIR$/Models/Appointment.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
       </list>
     </option>
   </component>
@@ -201,7 +206,7 @@
       <workItem from="1609840792336" duration="8289000" />
       <workItem from="1609942710806" duration="473000" />
       <workItem from="1609945014980" duration="63000" />
-      <workItem from="1609954185027" duration="1533000" />
+      <workItem from="1609954185027" duration="2675000" />
     </task>
     <servers />
   </component>
@@ -235,40 +240,40 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="361" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1609066522699" />
-    <state width="1398" height="173" key="GridCell.Tab.0.bottom" timestamp="1609945077279">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom" timestamp="1609957224951">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609692048585" />
     <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1609945077279" />
     <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1609774988453" />
-    <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1609767588443" />
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1609957224951" />
     <state width="1398" height="174" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1609761438986" />
     <state width="1398" height="174" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1609759285920" />
-    <state width="1398" height="173" key="GridCell.Tab.0.center" timestamp="1609945077277">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="173" key="GridCell.Tab.0.center" timestamp="1609957224950">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609692048583" />
     <state width="1398" height="173" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1609945077277" />
     <state width="1398" height="173" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1609774988451" />
-    <state width="1398" height="173" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1609767588440" />
+    <state width="1398" height="173" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1609957224950" />
     <state width="1398" height="174" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1609761438985" />
     <state width="1398" height="174" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1609759285919" />
-    <state width="1398" height="173" key="GridCell.Tab.0.left" timestamp="1609945077277">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="173" key="GridCell.Tab.0.left" timestamp="1609957224949">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609692048581" />
     <state width="1398" height="173" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1609945077277" />
     <state width="1398" height="173" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1609774988451" />
-    <state width="1398" height="173" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1609767588438" />
+    <state width="1398" height="173" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1609957224949" />
     <state width="1398" height="174" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1609761438985" />
     <state width="1398" height="174" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1609759285918" />
-    <state width="1398" height="173" key="GridCell.Tab.0.right" timestamp="1609945077278">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right" timestamp="1609957224950">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1398" height="176" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609692048584" />
     <state width="1398" height="173" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1609945077278" />
     <state width="1398" height="173" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1609774988452" />
-    <state width="1398" height="173" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1609767588441" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1609957224950" />
     <state width="1398" height="174" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1609761438986" />
     <state width="1398" height="174" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1609759285919" />
     <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1609858554358">
@@ -385,6 +390,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="720" height="407" key="XDebugger.FullValuePopup/0.23.1440.821@0.23.1440.821" timestamp="1609761428015" />
+    <state x="518" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609955836971">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="518" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.821@0.23.1440.821" timestamp="1609955836971" />
     <state x="601" y="164" width="725" height="548" key="find.popup" timestamp="1609858543417">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
