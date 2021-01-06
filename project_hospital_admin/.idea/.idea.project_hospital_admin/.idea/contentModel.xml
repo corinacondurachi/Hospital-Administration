@@ -99,7 +99,6 @@
       </e>
       <e p="Data" t="Include">
         <e p="ApplicationDbContext.cs" t="Include" />
-        <e p="Migrations" t="Include" />
       </e>
       <e p="Migrations" t="Include">
         <e p="20201228150834_InitialCreate.cs" t="Include" />
