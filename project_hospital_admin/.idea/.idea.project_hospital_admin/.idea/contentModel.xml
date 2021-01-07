@@ -144,6 +144,7 @@
         </e>
         <e p="Prescriptions" t="Include">
           <e p="CreatePrescription.cshtml" t="Include" />
+          <e p="EditPrescription.cshtml" t="Include" />
           <e p="ViewPrescriptions.cshtml" t="Include" />
           <e p="ViewPrescriptionsDoctor.cshtml" t="Include" />
           <e p="ViewPrescriptionsPatient.cshtml" t="Include" />

@@ -23,18 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22689270-4dda-4b92-a1e8-5e02f4b0d42c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Views/Prescriptions/EditPrescription.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Appointments/ViewAppointmentsDoctor.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Appointments/ViewAppointmentsDoctor.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Prescriptions/CreatePrescription.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Prescriptions/CreatePrescription.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptionsDoctor.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptionsDoctor.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project_hospital_admin.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/PrescriptionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PrescriptionsController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Areas/Identity/IdentityHostingStartup.cs" />
-        <option value="$PROJECT_DIR$/Controllers/PatientsController.cs" />
         <option value="$PROJECT_DIR$/Views/Home/Registration.cshtml" />
         <option value="$PROJECT_DIR$/Views/Home/Create_Appointment.cs" />
         <option value="$PROJECT_DIR$/Views/Home/Create_Appointment.cshtml" />
@@ -93,7 +83,6 @@
         <option value="$PROJECT_DIR$/Views/Appointments/ViewAppointmentsPatient.cshtml" />
         <option value="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptionsPatient.cshtml" />
         <option value="$PROJECT_DIR$/Controllers/AppointmentsController.cs" />
-        <option value="$PROJECT_DIR$/Controllers/PrescriptionsController.cs" />
         <option value="$PROJECT_DIR$/Views/Appointments/CreateAppointment.cshtml" />
         <option value="$PROJECT_DIR$/wwwroot/Appointment/js/calendarview.js" />
         <option value="$PROJECT_DIR$/Models/Prescription.cs" />
@@ -103,6 +92,9 @@
         <option value="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptionsDoctor.cshtml" />
         <option value="$PROJECT_DIR$/Views/Prescriptions/CreatePrescription.cshtml" />
         <option value="$PROJECT_DIR$/Views/Appointments/ViewAppointmentsDoctor.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Prescriptions/EditPrescription.cs" />
+        <option value="$PROJECT_DIR$/Views/Prescriptions/EditPrescription.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/PrescriptionsController.cs" />
       </list>
     </option>
   </component>
@@ -211,6 +203,7 @@
       <workItem from="1609945014980" duration="63000" />
       <workItem from="1609954185027" duration="2675000" />
       <workItem from="1609957237364" duration="2265000" />
+      <workItem from="1610007567840" duration="1005000" />
     </task>
     <servers />
   </component>
