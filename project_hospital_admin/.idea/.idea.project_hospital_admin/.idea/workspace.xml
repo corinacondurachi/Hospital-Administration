@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22689270-4dda-4b92-a1e8-5e02f4b0d42c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Views/Prescriptions/EditPrescription.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.project_hospital_admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/PrescriptionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PrescriptionsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptions.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptions.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,6 @@
         <option value="$PROJECT_DIR$/Views/Appointments/EditAppointment.cshtml" />
         <option value="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptions.cs" />
         <option value="$PROJECT_DIR$/Views/Appointments/ViewAppointments.cshtml" />
-        <option value="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptions.cshtml" />
         <option value="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptionsPatient.cs" />
         <option value="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptionsDoctor.cs" />
         <option value="$PROJECT_DIR$/Views/Appointments/ViewAppointmentsPatient.cshtml" />
@@ -95,6 +91,7 @@
         <option value="$PROJECT_DIR$/Views/Prescriptions/EditPrescription.cs" />
         <option value="$PROJECT_DIR$/Views/Prescriptions/EditPrescription.cshtml" />
         <option value="$PROJECT_DIR$/Controllers/PrescriptionsController.cs" />
+        <option value="$PROJECT_DIR$/Views/Prescriptions/ViewPrescriptions.cshtml" />
       </list>
     </option>
   </component>
@@ -203,7 +200,7 @@
       <workItem from="1609945014980" duration="63000" />
       <workItem from="1609954185027" duration="2675000" />
       <workItem from="1609957237364" duration="2265000" />
-      <workItem from="1610007567840" duration="1005000" />
+      <workItem from="1610007567840" duration="1378000" />
     </task>
     <servers />
   </component>

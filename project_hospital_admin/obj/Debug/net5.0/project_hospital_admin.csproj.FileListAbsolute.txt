@@ -451,3 +451,4 @@
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Prescriptions/ViewPrescriptions.cshtml.g.cs
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Prescriptions/ViewPrescriptionsDoctor.cshtml.g.cs
 /Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Prescriptions/ViewPrescriptionsPatient.cshtml.g.cs
+/Users/corinacondurachi/Documents/GitHub/Hospital-Administration/project_hospital_admin/obj/Debug/net5.0/Razor/Views/Prescriptions/EditPrescription.cshtml.g.cs
