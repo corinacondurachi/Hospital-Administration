@@ -45,11 +45,11 @@ namespace project_hospital_admin.Controllers
                 {
                     return RedirectToAction("ViewAppointments", "Appointments");
                 }
-                if (appointment.ApplicationUser.Role == "Doctor")
+                if (user.Role == "Doctor")
                 {
                     return RedirectToAction("ViewAppointmentsDoctor", "Appointments");
                 }
-                if (appointment.ApplicationUser.Role == "Pacient")
+                if (user.Role == "Pacient")
                 {
                     return RedirectToAction("ViewAppointmentsPatient", "Appointments");
                 }
@@ -106,6 +106,8 @@ namespace project_hospital_admin.Controllers
         {
             try
             {
+                appointment.UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                
                 if (ModelState.IsValid)
                 {
                     var oldAppointment = _context.Appointments.Find(appointment.Id);
@@ -114,7 +116,8 @@ namespace project_hospital_admin.Controllers
                     {
                         return NotFound();
                     }
-
+                    
+                    oldAppointment.UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
                     oldAppointment.CountryCode = appointment.CountryCode;
                     oldAppointment.PhoneNumber = appointment.PhoneNumber;
                     oldAppointment.EmailAddress = appointment.EmailAddress;
@@ -133,8 +136,21 @@ namespace project_hospital_admin.Controllers
                     TryUpdateModelAsync(oldAppointment);
 
                     _context.SaveChanges();
-
-                    return RedirectToAction("ViewAppointments", "Appointments");
+                    
+                    var user = _context.ApplicationUsers.FirstOrDefault(x => x.Id == appointment.UserId);
+                    
+                    if (user.Role == "Admin")
+                    {
+                        return RedirectToAction("ViewAppointments", "Appointments");
+                    }
+                    if (user.Role == "Doctor")
+                    {
+                        return RedirectToAction("ViewAppointmentsDoctor", "Appointments");
+                    }
+                    if (user.Role == "Pacient")
+                    {
+                        return RedirectToAction("ViewAppointmentsPatient", "Appointments");
+                    }
                 }
             }
             catch (Exception e)
@@ -160,7 +176,24 @@ namespace project_hospital_admin.Controllers
 
             _context.SaveChanges();
 
-            return RedirectToAction("ViewAppointments", "Appointments");
+            var user = _context.ApplicationUsers.FirstOrDefault(x => x.Id == appointment.UserId);
+                    
+            if (user.Role == "Admin")
+            {
+                return RedirectToAction("ViewAppointments", "Appointments");
+            }
+            
+            if (user.Role == "Doctor")
+            {
+                return RedirectToAction("ViewAppointmentsDoctor", "Appointments");
+            }
+            
+            if (user.Role == "Pacient")
+            {
+                return RedirectToAction("ViewAppointmentsPatient", "Appointments");
+            }
+
+            return NotFound();
         }
 
     }

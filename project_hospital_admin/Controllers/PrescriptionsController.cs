@@ -130,7 +130,15 @@ namespace project_hospital_admin.Controllers
 
                     _context.SaveChanges();
 
-                    return RedirectToAction("ViewPrescriptions", "Prescriptions");
+                    var user2 = _context.ApplicationUsers.FirstOrDefault(x => x.Id == User.FindFirstValue(ClaimTypes.NameIdentifier));
+                    if (user2.Role == "Admin")
+                    {
+                        return RedirectToAction("ViewPrescriptions", "Prescriptions");
+                    }
+                    if (user2.Role == "Doctor")
+                    {
+                        return RedirectToAction("ViewPrescriptionsDoctor", "Prescriptions");
+                    }
                 }
             }
             catch (Exception e)
@@ -156,12 +164,19 @@ namespace project_hospital_admin.Controllers
 
             _context.SaveChanges();
 
-            return RedirectToAction("ViewPrescriptions", "Prescriptions");
+            var user2 = _context.ApplicationUsers.FirstOrDefault(x => x.Id == User.FindFirstValue(ClaimTypes.NameIdentifier));
+            if (user2.Role == "Admin")
+            {
+                return RedirectToAction("ViewPrescriptions", "Prescriptions");
+            }
+            if (user2.Role == "Doctor")
+            {
+                return RedirectToAction("ViewPrescriptionsDoctor", "Prescriptions");
+            }
+
+            return NotFound();
         }
-
-
-
-
+        
     }
 }
 
