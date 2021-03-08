@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using project_hospital_admin.Models;
+using project_hospital_admin.Models.Validations;
 
 namespace project_hospital_admin.Areas.Identity.Pages.Account
 {
@@ -76,7 +77,8 @@ namespace project_hospital_admin.Areas.Identity.Pages.Account
             [RegularExpression(@"^[0-9]*$", ErrorMessage = "Numarul de telefon poate sa contina doar cifre")]
             public string PhoneNumber { get; set; }
         
-            [RegularExpression(@"^[1256][0-9]{12}$", ErrorMessage = "CNP invalid")]
+            //[RegularExpression(@"^[1256][0-9]{12}$", ErrorMessage = "CNP invalid")]
+            [CNPValidator]
             public string Cnp { get; set; }
             
             public string Role { get; set; } = "Pacient";

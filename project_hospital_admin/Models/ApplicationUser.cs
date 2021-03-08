@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
+using project_hospital_admin.Models.Validations;
 
 
 namespace project_hospital_admin.Models
@@ -24,7 +25,8 @@ namespace project_hospital_admin.Models
         [RegularExpression(@"^[0-9]*$", ErrorMessage = "Numarul de telefon poate sa contina doar cifre")]
         public string PhoneNumber { get; set; }
         
-        [RegularExpression(@"^[1256][0-9]{12}$", ErrorMessage = "CNP invalid")]
+        ///[RegularExpression(@"^[1256][0-9]{12}$", ErrorMessage = "CNP invalid")]
+        [CNPValidator]
         public string Cnp { get; set; }
 
         public string Role { get; set; } = "Pacient";
